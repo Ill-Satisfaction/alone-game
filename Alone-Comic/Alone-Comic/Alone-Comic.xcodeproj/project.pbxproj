@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C960ACBE2451302B00D2E6CA /* d1_p1_1UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C960ACBD2451302B00D2E6CA /* d1_p1_1UIView.swift */; };
+		C960ACC22451370700D2E6CA /* AlonePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C960ACC12451370700D2E6CA /* AlonePageViewController.swift */; };
 		FA72E7C0244A5E540052B2A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA72E7BF244A5E540052B2A5 /* AppDelegate.swift */; };
 		FA72E7C2244A5E540052B2A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA72E7C1244A5E540052B2A5 /* SceneDelegate.swift */; };
 		FA72E7C4244A5E540052B2A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA72E7C3244A5E540052B2A5 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C960ACBD2451302B00D2E6CA /* d1_p1_1UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d1_p1_1UIView.swift; sourceTree = "<group>"; };
+		C960ACC12451370700D2E6CA /* AlonePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlonePageViewController.swift; sourceTree = "<group>"; };
 		FA72E7BC244A5E540052B2A5 /* Alone-Comic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alone-Comic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA72E7BF244A5E540052B2A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA72E7C1244A5E540052B2A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				FA72E7C1244A5E540052B2A5 /* SceneDelegate.swift */,
 				FA72E7C3244A5E540052B2A5 /* ViewController.swift */,
 				FA72E7C5244A5E540052B2A5 /* Main.storyboard */,
+				C960ACC12451370700D2E6CA /* AlonePageViewController.swift */,
+				C960ACBD2451302B00D2E6CA /* d1_p1_1UIView.swift */,
 				FA72E7C8244A5E580052B2A5 /* Assets.xcassets */,
 				FA72E7CA244A5E580052B2A5 /* LaunchScreen.storyboard */,
 				FA72E7CD244A5E580052B2A5 /* Info.plist */,
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C960ACBE2451302B00D2E6CA /* d1_p1_1UIView.swift in Sources */,
+				C960ACC22451370700D2E6CA /* AlonePageViewController.swift in Sources */,
 				FA72E7C4244A5E540052B2A5 /* ViewController.swift in Sources */,
 				FA72E7C0244A5E540052B2A5 /* AppDelegate.swift in Sources */,
 				FA72E7C2244A5E540052B2A5 /* SceneDelegate.swift in Sources */,
@@ -285,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q8Q82JGFTG;
 				INFOPLIST_FILE = "Alone-Comic/Info.plist";
@@ -295,6 +304,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "alone-comic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q8Q82JGFTG;
@@ -316,6 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "alone-comic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
