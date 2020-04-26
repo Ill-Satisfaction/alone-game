@@ -19,7 +19,9 @@ class AlonePageViewController: UIPageViewController {
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [
             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p1_1"),
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p1_2")
+            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p1_2"),
+             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p1_3"),
+             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p1_4")
         ]
     }()
     
