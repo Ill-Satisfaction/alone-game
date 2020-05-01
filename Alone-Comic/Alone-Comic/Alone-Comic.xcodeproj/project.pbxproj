@@ -101,6 +101,9 @@
 		FA72E7C7244A5E540052B2A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA72E7C5244A5E540052B2A5 /* Main.storyboard */; };
 		FA72E7C9244A5E580052B2A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA72E7C8244A5E580052B2A5 /* Assets.xcassets */; };
 		FA72E7CC244A5E580052B2A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA72E7CA244A5E580052B2A5 /* LaunchScreen.storyboard */; };
+		FA7A7493245BFAD4002293F2 /* d5_p1_1_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A7492245BFAD4002293F2 /* d5_p1_1_UIView.swift */; };
+		FA7A7495245BFAFC002293F2 /* d5_p2_1_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A7494245BFAFC002293F2 /* d5_p2_1_UIView.swift */; };
+		FA7A7497245BFB09002293F2 /* d5_p2_3_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A7496245BFB09002293F2 /* d5_p2_3_UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -200,6 +203,9 @@
 		FA72E7C8244A5E580052B2A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA72E7CB244A5E580052B2A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA72E7CD244A5E580052B2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7A7492245BFAD4002293F2 /* d5_p1_1_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d5_p1_1_UIView.swift; sourceTree = "<group>"; };
+		FA7A7494245BFAFC002293F2 /* d5_p2_1_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d5_p2_1_UIView.swift; sourceTree = "<group>"; };
+		FA7A7496245BFB09002293F2 /* d5_p2_3_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d5_p2_3_UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +242,9 @@
 				FA72E7C1244A5E540052B2A5 /* SceneDelegate.swift */,
 				FA72E7C3244A5E540052B2A5 /* ViewController.swift */,
 				FA72E7C5244A5E540052B2A5 /* Main.storyboard */,
+				FA7A7496245BFB09002293F2 /* d5_p2_3_UIView.swift */,
+				FA7A7494245BFAFC002293F2 /* d5_p2_1_UIView.swift */,
+				FA7A7492245BFAD4002293F2 /* d5_p1_1_UIView.swift */,
 				FA360792245A2ADB00C6BCD0 /* d5_20_5-UIView.swift */,
 				FA360790245A2AAB00C6BCD0 /* d5_20_1_UIView.swift */,
 				FA36078E245A293C00C6BCD0 /* d5_p17_1_UIView.swift */,
@@ -416,11 +425,13 @@
 				FA36077F2459FBD100C6BCD0 /* d5_p14_2_UIView.swift in Sources */,
 				FA3607752459F67100C6BCD0 /* d5_p12_3_UIView.swift in Sources */,
 				FA36072124566DA600C6BCD0 /* d2_p15_3_UIView.swift in Sources */,
+				FA7A7497245BFB09002293F2 /* d5_p2_3_UIView.swift in Sources */,
 				FA36073D24575BD100C6BCD0 /* d3_p19_4_UIView.swift in Sources */,
 				FA36071724565EEA00C6BCD0 /* d2_p14_1_UIView.swift in Sources */,
 				FA36073B24575BC300C6BCD0 /* d3_p19_3_UIView.swift in Sources */,
 				FA36070124563B9200C6BCD0 /* d2_p10_3_UIView.swift in Sources */,
 				FA3606F7245535A400C6BCD0 /* d1_p7_2_UIView.swift in Sources */,
+				FA7A7495245BFAFC002293F2 /* d5_p2_1_UIView.swift in Sources */,
 				FA360735245751E900C6BCD0 /* d3_p18_4_UIView.swift in Sources */,
 				FA36070D2456441500C6BCD0 /* d2_p12_2_UIView.swift in Sources */,
 				FA36077D2459FBC600C6BCD0 /* d5_p14_1_UIView.swift in Sources */,
@@ -491,6 +502,7 @@
 				FA36075D245924FC00C6BCD0 /* d4_p6_4_UIView.swift in Sources */,
 				FA360733245751E100C6BCD0 /* d3_p18_3_UIView.swift in Sources */,
 				FA36072B24574DE000C6BCD0 /* d3_p17_3_UIView.swift in Sources */,
+				FA7A7493245BFAD4002293F2 /* d5_p1_1_UIView.swift in Sources */,
 				FA36072924574DC400C6BCD0 /* d3_p17_1_UIView.swift in Sources */,
 				FA36072324566DB800C6BCD0 /* d2_p15_4_UIView.swift in Sources */,
 				FA2CBA8A245510EB0093C83B /* d1_p6_3_UIView.swift in Sources */,

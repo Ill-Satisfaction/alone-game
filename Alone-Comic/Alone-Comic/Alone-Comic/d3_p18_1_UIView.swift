@@ -73,5 +73,3 @@ class d3_p18_1_UIView: UINavigationController {
     }
     
 }
-
-

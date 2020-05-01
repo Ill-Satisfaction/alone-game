@@ -1,20 +1,22 @@
 //
-//  d1_p1_3a.swift
+//  d5_p1_1_UIView.swift
 //  Alone-Comic
 //
-//  Created by Adam Azevedo on 4/24/20.
+//  Created by Adam Azevedo on 5/1/20.
 //  Copyright © 2020 250_DreamTeam. All rights reserved.
 //
 
 import UIKit
 
-class d1_p1_3_UIView: UINavigationController {
+class d5_p1_1_UIView: UINavigationController {
     
     // set all subpanels IN ORDER
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p1_3_a"),
-            
+            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p1_1_a"),
+            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p1_1_b"),
+            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p1_1_c"),
+            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p1_1_d")
         ]
     }()
     
@@ -41,7 +43,8 @@ class d1_p1_3_UIView: UINavigationController {
         //  THIS SECTION IS CHANGED FROM PANEL TO PANEL,
         //  DEPENDING ON WHAT WE NEED
         //  --------------------------------
-       
+        
+        
         //  --------------------------------
         
         
@@ -73,4 +76,3 @@ class d1_p1_3_UIView: UINavigationController {
     }
     
 }
-
