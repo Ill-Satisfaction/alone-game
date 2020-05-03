@@ -104,6 +104,14 @@
 		FA7A7493245BFAD4002293F2 /* d5_p1_1_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A7492245BFAD4002293F2 /* d5_p1_1_UIView.swift */; };
 		FA7A7495245BFAFC002293F2 /* d5_p2_1_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A7494245BFAFC002293F2 /* d5_p2_1_UIView.swift */; };
 		FA7A7497245BFB09002293F2 /* d5_p2_3_UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A7496245BFB09002293F2 /* d5_p2_3_UIView.swift */; };
+		FA7CB0DD245E19F300B47D69 /* d1_p1_2_a_UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB0DC245E19F300B47D69 /* d1_p1_2_a_UIViewController.swift */; };
+		FA7CB0DF245E21E500B47D69 /* AloneNavigationControllerTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB0DE245E21E500B47D69 /* AloneNavigationControllerTemplate.swift */; };
+		FA7CB0E1245E4EEF00B47D69 /* TitleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB0E0245E4EEF00B47D69 /* TitleScreen.swift */; };
+		FA7CB0E3245E4EF800B47D69 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB0E2245E4EF800B47D69 /* Day1.swift */; };
+		FA7CB0E5245E4F0100B47D69 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB0E4245E4F0100B47D69 /* Day2.swift */; };
+		FA7CB0E7245E4F0900B47D69 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB0E6245E4F0800B47D69 /* Day3.swift */; };
+		FA7CB0E9245E4F0E00B47D69 /* Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB0E8245E4F0E00B47D69 /* Day4.swift */; };
+		FA7CB0EB245E4F1B00B47D69 /* Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CB0EA245E4F1B00B47D69 /* Day5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -206,6 +214,14 @@
 		FA7A7492245BFAD4002293F2 /* d5_p1_1_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d5_p1_1_UIView.swift; sourceTree = "<group>"; };
 		FA7A7494245BFAFC002293F2 /* d5_p2_1_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d5_p2_1_UIView.swift; sourceTree = "<group>"; };
 		FA7A7496245BFB09002293F2 /* d5_p2_3_UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d5_p2_3_UIView.swift; sourceTree = "<group>"; };
+		FA7CB0DC245E19F300B47D69 /* d1_p1_2_a_UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = d1_p1_2_a_UIViewController.swift; sourceTree = "<group>"; };
+		FA7CB0DE245E21E500B47D69 /* AloneNavigationControllerTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AloneNavigationControllerTemplate.swift; sourceTree = "<group>"; };
+		FA7CB0E0245E4EEF00B47D69 /* TitleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleScreen.swift; sourceTree = "<group>"; };
+		FA7CB0E2245E4EF800B47D69 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
+		FA7CB0E4245E4F0100B47D69 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
+		FA7CB0E6245E4F0800B47D69 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
+		FA7CB0E8245E4F0E00B47D69 /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
+		FA7CB0EA245E4F1B00B47D69 /* Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +258,8 @@
 				FA72E7C1244A5E540052B2A5 /* SceneDelegate.swift */,
 				FA72E7C3244A5E540052B2A5 /* ViewController.swift */,
 				FA72E7C5244A5E540052B2A5 /* Main.storyboard */,
+				FA7CB0DC245E19F300B47D69 /* d1_p1_2_a_UIViewController.swift */,
+				FA7CB0DE245E21E500B47D69 /* AloneNavigationControllerTemplate.swift */,
 				FA7A7496245BFB09002293F2 /* d5_p2_3_UIView.swift */,
 				FA7A7494245BFAFC002293F2 /* d5_p2_1_UIView.swift */,
 				FA7A7492245BFAD4002293F2 /* d5_p1_1_UIView.swift */,
@@ -334,6 +352,12 @@
 				C960ACBD2451302B00D2E6CA /* d1_p1_1UIView.swift */,
 				C960ACC12451370700D2E6CA /* AlonePageViewController.swift */,
 				FA72E7C8244A5E580052B2A5 /* Assets.xcassets */,
+				FA7CB0E0245E4EEF00B47D69 /* TitleScreen.swift */,
+				FA7CB0E2245E4EF800B47D69 /* Day1.swift */,
+				FA7CB0E4245E4F0100B47D69 /* Day2.swift */,
+				FA7CB0E6245E4F0800B47D69 /* Day3.swift */,
+				FA7CB0E8245E4F0E00B47D69 /* Day4.swift */,
+				FA7CB0EA245E4F1B00B47D69 /* Day5.swift */,
 				FA72E7CA244A5E580052B2A5 /* LaunchScreen.storyboard */,
 				FA72E7CD244A5E580052B2A5 /* Info.plist */,
 			);
@@ -415,8 +439,10 @@
 				FA36074B2459144300C6BCD0 /* d3_p3_1_UIView.swift in Sources */,
 				FA3606FB2455361700C6BCD0 /* d1_p8_2_UIview.swift in Sources */,
 				FA3606FD2455366D00C6BCD0 /* d1_p7_3_UIView.swift in Sources */,
+				FA7CB0DD245E19F300B47D69 /* d1_p1_2_a_UIViewController.swift in Sources */,
 				FA36071B24565F0600C6BCD0 /* d2_p14_3_UIView.swift in Sources */,
 				FA36076F2459345200C6BCD0 /* d4_p10_7_UIView.swift in Sources */,
+				FA7CB0E7245E4F0900B47D69 /* Day3.swift in Sources */,
 				FA36077B2459F94800C6BCD0 /* d5_p13_2_UIView.swift in Sources */,
 				FA3607512459178A00C6BCD0 /* d3_p4_4_UIView.swift in Sources */,
 				FA3607152456597000C6BCD0 /* d2_p13_2_UIView.swift in Sources */,
@@ -440,10 +466,12 @@
 				FA2CBA84245508B60093C83B /* d1_p6_1_UIView.swift in Sources */,
 				FA36074F2459176900C6BCD0 /* d3_p4_2_UIView.swift in Sources */,
 				FA360759245924E300C6BCD0 /* d4_p6_1_UIView.swift in Sources */,
+				FA7CB0E9245E4F0E00B47D69 /* Day4.swift in Sources */,
 				FA36076124592A5100C6BCD0 /* d4_p7_2_UIView.swift in Sources */,
 				FA2CBA822454FC090093C83B /* d1_p5_4_UIView.swift in Sources */,
 				FA36075B245924F400C6BCD0 /* d4_p6_2_UIView.swift in Sources */,
 				FA360793245A2ADB00C6BCD0 /* d5_20_5-UIView.swift in Sources */,
+				FA7CB0DF245E21E500B47D69 /* AloneNavigationControllerTemplate.swift in Sources */,
 				FA360791245A2AAB00C6BCD0 /* d5_20_1_UIView.swift in Sources */,
 				FA360787245A1FC900C6BCD0 /* d5_p15_3_UIView.swift in Sources */,
 				FA36070324563BDC00C6BCD0 /* d2_p10_4_UIView.swift in Sources */,
@@ -453,11 +481,13 @@
 				FA36072D24574DEF00C6BCD0 /* d3_p17_4_UIView.swift in Sources */,
 				FA36070B2456440300C6BCD0 /* d2_p12_3_UIView.swift in Sources */,
 				FA36074524590FEB00C6BCD0 /* d3_p2_1_UIView.swift in Sources */,
+				FA7CB0E5245E4F0100B47D69 /* Day2.swift in Sources */,
 				FA63506F24552D430039ED57 /* d1_p6_4_UIView.swift in Sources */,
 				FA36070F2456442B00C6BCD0 /* d2_p12_1_UIView.swift in Sources */,
 				FA36075724591CA800C6BCD0 /* d4_p5_4_UIView.swift in Sources */,
 				FA36072F245751BB00C6BCD0 /* d3_p18_1_UIView.swift in Sources */,
 				C960ACC22451370700D2E6CA /* AlonePageViewController.swift in Sources */,
+				FA7CB0E3245E4EF800B47D69 /* Day1.swift in Sources */,
 				FA36071D24565F1300C6BCD0 /* d2_p14_4_UIView.swift in Sources */,
 				FA3606F9245535F700C6BCD0 /* d1_p8_1_UIView.swift in Sources */,
 				FA36075324591C8600C6BCD0 /* d4_p5_1_UIView.swift in Sources */,
@@ -470,12 +500,14 @@
 				FA3607492459100A00C6BCD0 /* d3_p2_3_UIView.swift in Sources */,
 				FA36075F24592A2A00C6BCD0 /* d4_p7_1_UIView.swift in Sources */,
 				FA36076524592DDC00C6BCD0 /* d4_p8_5_UIView.swift in Sources */,
+				FA7CB0EB245E4F1B00B47D69 /* Day5.swift in Sources */,
 				FA3607472459100100C6BCD0 /* d3_p2_2_UIView.swift in Sources */,
 				FA36071F24566D8800C6BCD0 /* d2_p15_1_UIView.swift in Sources */,
 				FA36076324592DC400C6BCD0 /* d4_p8_1_UIView.swift in Sources */,
 				FA36078B245A239500C6BCD0 /* d5_p16_1_UIView.swift in Sources */,
 				FA36076D2459343E00C6BCD0 /* d4_p10_1_UIView.swift in Sources */,
 				FA36076B2459312100C6BCD0 /* d4_p9_4_UIView.swift in Sources */,
+				FA7CB0E1245E4EEF00B47D69 /* TitleScreen.swift in Sources */,
 				FA36074D2459145C00C6BCD0 /* d3_p3_2_UIView.swift in Sources */,
 				FA2CBA8624550EE80093C83B /* d1_p6_2_UIView.swift in Sources */,
 				FA36070924563FC100C6BCD0 /* d2_p11_4_UIView.swift in Sources */,

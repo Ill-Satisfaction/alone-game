@@ -14,7 +14,7 @@ class d3_p18_1_UIView: UINavigationController {
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [
             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d3_p18_1_a")
-        ]
+    ]
     }()
     
     private var currPanel : Int = 0

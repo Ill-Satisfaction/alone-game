@@ -1,22 +1,21 @@
 //
-//  d1_p2_1_UIView.swift
+//  Day2.swift
 //  Alone-Comic
 //
-//  Created by Adam Azevedo on 4/25/20.
+//  Created by Adam Azevedo on 5/2/20.
 //  Copyright © 2020 250_DreamTeam. All rights reserved.
 //
 
 import UIKit
 
-class d1_p2_1_UIView: UINavigationController {
+class Day2: UINavigationController {
     
     // set all subpanels IN ORDER
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p2_1_a"),
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p2_1_b"),
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p2_1_c"),
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p2_1_d")
+            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "Day2_screen"),
+            
+            
         ]
     }()
     
@@ -43,13 +42,7 @@ class d1_p2_1_UIView: UINavigationController {
         //  THIS SECTION IS CHANGED FROM PANEL TO PANEL,
         //  DEPENDING ON WHAT WE NEED
         //  --------------------------------
-        //this section needs some work
-               for _ in 1...orderedViewControllers.count-1 {
-                   DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                       self.goForward()
-                   }
-               }
-        
+       
         //  --------------------------------
         
         
@@ -81,3 +74,6 @@ class d1_p2_1_UIView: UINavigationController {
     }
     
 }
+
+
+

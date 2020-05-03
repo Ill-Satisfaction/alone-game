@@ -13,8 +13,8 @@ class d5_p12_3_UIView: UINavigationController {
     // set all subpanels IN ORDER
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d4_p12_3_a"),
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d4_p12_3_4")
+            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p12_3_a"),
+            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p12_3_b")
         ]
     }()
     
