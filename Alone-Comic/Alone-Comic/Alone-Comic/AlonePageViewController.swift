@@ -11,10 +11,12 @@
 //
 
 import UIKit
+import AVFoundation
 
 class AlonePageViewController: UIPageViewController {
     
     //  fields
+    
     
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [
@@ -115,6 +117,7 @@ class AlonePageViewController: UIPageViewController {
             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p16_1"),
             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p16_2"),
             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p17_1"),
+            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "climax_animation"),
             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p20_1"),
             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p20_5"),
             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p1_1"),
@@ -129,7 +132,9 @@ class AlonePageViewController: UIPageViewController {
     }()
     
     
-    
+    //music
+    lazy var audioPlayer = AVAudioPlayer()
+
     
     //  methods
     
@@ -138,6 +143,22 @@ class AlonePageViewController: UIPageViewController {
         view.backgroundColor = .black
         
         dataSource = self
+        
+        let sound = Bundle.main.path(forResource: "Jay-Lounge - Alone", ofType: "mp3")
+        
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+            //audioPlayer.set(numberOfLoops) = -1
+            audioPlayer.numberOfLoops = 100
+            audioPlayer.play()
+        }
+        catch{
+            print(error)
+        }
+        
+        
+        
+
         
         // load first panel
         if let firstViewController = orderedViewControllers.first {
