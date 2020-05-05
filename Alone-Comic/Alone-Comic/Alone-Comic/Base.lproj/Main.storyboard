@@ -42,20 +42,7 @@
                 <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Dvk-ye-gnp" customClass="AlonePageViewController" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YCE-Jz-BHz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3168" y="-8233"/>
-        </scene>
-        <!--p22UI View-->
-        <scene sceneID="jUi-Jz-zrw">
-            <objects>
-                <navigationController storyboardIdentifier="d1_p2_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SVm-Wk-eDo" customClass="d1_p2_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hwq-ES-fh3">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vMQ-3g-CAg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3172" y="-5226"/>
+            <point key="canvasLocation" x="-3173" y="-9107"/>
         </scene>
         <!--d1_p1_1_a-->
         <scene sceneID="qV3-in-EKv">
@@ -65,24 +52,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="Kitchen extended" translatesAutoresizingMaskIntoConstraints="NO" id="sQM-RZ-3le">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kitchen extended" translatesAutoresizingMaskIntoConstraints="NO" id="Vun-O8-qt4">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="p2_1figureLEFT" translatesAutoresizingMaskIntoConstraints="NO" id="74M-FT-Wyl">
-                                <rect key="frame" x="512.66666666666663" y="140.66666666666666" width="96" height="218.99999999999997"/>
-                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p2_1figureLEFT" translatesAutoresizingMaskIntoConstraints="NO" id="bUi-QG-UpS">
+                                <rect key="frame" x="546" y="150.33333333333334" width="145.66666666666663" height="207.00000000000003"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="sQM-RZ-3le" firstAttribute="height" secondItem="Msj-YT-a3y" secondAttribute="height" id="8MS-jE-SgT"/>
-                            <constraint firstItem="74M-FT-Wyl" firstAttribute="height" secondItem="sQM-RZ-3le" secondAttribute="height" multiplier="0.582447" id="8XD-EK-AUl"/>
-                            <constraint firstItem="sQM-RZ-3le" firstAttribute="centerY" secondItem="Msj-YT-a3y" secondAttribute="centerY" id="D5u-yT-2WX"/>
-                            <constraint firstItem="74M-FT-Wyl" firstAttribute="centerY" secondItem="sQM-RZ-3le" secondAttribute="centerY" multiplier="1.33" id="F8e-1a-cCS"/>
-                            <constraint firstItem="sQM-RZ-3le" firstAttribute="centerX" secondItem="Msj-YT-a3y" secondAttribute="centerX" id="Jtc-so-nvF"/>
-                            <constraint firstItem="sQM-RZ-3le" firstAttribute="width" secondItem="Msj-YT-a3y" secondAttribute="width" id="Tvk-JF-ifa"/>
-                            <constraint firstItem="74M-FT-Wyl" firstAttribute="centerX" secondItem="sQM-RZ-3le" secondAttribute="centerX" multiplier="1.54" id="k8Y-GF-oQ4"/>
-                            <constraint firstItem="74M-FT-Wyl" firstAttribute="width" secondItem="sQM-RZ-3le" secondAttribute="width" multiplier="0.131868" id="qfb-bU-RiS"/>
+                            <constraint firstItem="Vun-O8-qt4" firstAttribute="width" secondItem="Msj-YT-a3y" secondAttribute="width" id="557-9q-lPB"/>
+                            <constraint firstItem="Vun-O8-qt4" firstAttribute="centerY" secondItem="Msj-YT-a3y" secondAttribute="centerY" id="BGk-4K-kPK"/>
+                            <constraint firstItem="Vun-O8-qt4" firstAttribute="centerX" secondItem="Msj-YT-a3y" secondAttribute="centerX" id="IUr-9M-r0p"/>
+                            <constraint firstItem="bUi-QG-UpS" firstAttribute="height" secondItem="Msj-YT-a3y" secondAttribute="height" multiplier="0.55" id="PoY-A8-7KP"/>
+                            <constraint firstItem="bUi-QG-UpS" firstAttribute="width" secondItem="Msj-YT-a3y" secondAttribute="width" multiplier="0.2" id="V6C-kn-Dft"/>
+                            <constraint firstItem="bUi-QG-UpS" firstAttribute="centerX" secondItem="Msj-YT-a3y" secondAttribute="centerX" multiplier="1.7" id="hyJ-P0-Zo8"/>
+                            <constraint firstItem="bUi-QG-UpS" firstAttribute="centerY" secondItem="Msj-YT-a3y" secondAttribute="centerY" multiplier="1.35" id="q6H-yC-3PS"/>
+                            <constraint firstItem="Vun-O8-qt4" firstAttribute="height" secondItem="Msj-YT-a3y" secondAttribute="height" id="uW7-ek-N6Q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BOH-dS-MRx"/>
                     </view>
@@ -91,42 +77,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="05e-Y8-TV9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2535" y="-6000"/>
-        </scene>
-        <!--d1_p1_2_a-->
-        <scene sceneID="YUE-nT-Q7b">
-            <objects>
-                <viewController storyboardIdentifier="d1_p2_2_a" title="d1_p1_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BFz-Yf-ocP" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="X2I-B0-Hhh">
-                        <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kitchen extended" translatesAutoresizingMaskIntoConstraints="NO" id="I4i-g8-ZRF">
-                                <rect key="frame" x="0.0" y="-0.66666666666665719" width="728" height="377.33333333333326"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="p2_2figure2" translatesAutoresizingMaskIntoConstraints="NO" id="tTA-Gh-blH">
-                                <rect key="frame" x="480.33333333333331" y="141.33333333333337" width="131.33333333333331" height="218.66666666666663"/>
-                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="tTA-Gh-blH" firstAttribute="centerY" secondItem="X2I-B0-Hhh" secondAttribute="centerY" multiplier="4:3" id="1fs-bl-w7y"/>
-                            <constraint firstItem="I4i-g8-ZRF" firstAttribute="width" secondItem="X2I-B0-Hhh" secondAttribute="width" id="Cbg-ue-JB5"/>
-                            <constraint firstItem="I4i-g8-ZRF" firstAttribute="centerY" secondItem="X2I-B0-Hhh" secondAttribute="centerY" id="DS2-ND-Ira"/>
-                            <constraint firstItem="I4i-g8-ZRF" firstAttribute="height" secondItem="X2I-B0-Hhh" secondAttribute="height" constant="1" id="QRC-4i-Y8Y"/>
-                            <constraint firstItem="I4i-g8-ZRF" firstAttribute="centerX" secondItem="X2I-B0-Hhh" secondAttribute="centerX" id="nE8-jV-0lr"/>
-                            <constraint firstItem="tTA-Gh-blH" firstAttribute="width" secondItem="I4i-g8-ZRF" secondAttribute="width" multiplier="0.18" id="put-ni-CaE"/>
-                            <constraint firstItem="tTA-Gh-blH" firstAttribute="height" secondItem="I4i-g8-ZRF" secondAttribute="height" multiplier="0.580389" id="yyO-nr-WbE"/>
-                            <constraint firstItem="tTA-Gh-blH" firstAttribute="centerX" secondItem="X2I-B0-Hhh" secondAttribute="centerX" multiplier="1.5" id="zF5-Ef-Bjm"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="P3v-i0-SDd"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="HBB-AF-P9o"/>
-                    <size key="freeformSize" width="728" height="376"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nml-ZI-jLR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2580" y="-5255"/>
         </scene>
         <!--d1_p1_2_a-->
         <scene sceneID="gSu-SM-H0w">
@@ -773,7 +723,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p12_2 Combined" translatesAutoresizingMaskIntoConstraints="NO" id="7WU-hz-rAn">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p12_2" translatesAutoresizingMaskIntoConstraints="NO" id="7WU-hz-rAn">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -800,7 +750,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Day2_P12_3" translatesAutoresizingMaskIntoConstraints="NO" id="PEW-co-WPY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p12_3" translatesAutoresizingMaskIntoConstraints="NO" id="PEW-co-WPY">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -913,33 +863,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2eW-Vi-nLy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="177" y="2997"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="sFe-HG-aqU">
-            <objects>
-                <viewController storyboardIdentifier="d2_p14_1_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4Zp-Ru-r7K" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="EQj-qi-0os">
-                        <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Peephole" translatesAutoresizingMaskIntoConstraints="NO" id="icS-mg-d3J">
-                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="icS-mg-d3J" firstAttribute="centerY" secondItem="EQj-qi-0os" secondAttribute="centerY" id="2Kp-Qm-Ziz"/>
-                            <constraint firstItem="icS-mg-d3J" firstAttribute="width" secondItem="EQj-qi-0os" secondAttribute="width" id="3Zz-4L-UcZ"/>
-                            <constraint firstItem="icS-mg-d3J" firstAttribute="centerX" secondItem="EQj-qi-0os" secondAttribute="centerX" id="5Js-Fb-DHV"/>
-                            <constraint firstItem="icS-mg-d3J" firstAttribute="height" secondItem="EQj-qi-0os" secondAttribute="height" id="tZB-xY-Tf5"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="qOB-9m-pSr"/>
-                    </view>
-                    <size key="freeformSize" width="728" height="376"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YIZ-r2-FET" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-72" y="5368"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="J8k-9S-Pkd">
@@ -1253,7 +1176,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p17_3 combined" translatesAutoresizingMaskIntoConstraints="NO" id="Foc-yw-sh4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p17_3 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="Foc-yw-sh4">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -1648,19 +1571,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H2Q-2u-MSn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-727" y="6149"/>
-        </scene>
-        <!--p141UI View-->
-        <scene sceneID="MYy-Kg-UdG">
-            <objects>
-                <navigationController storyboardIdentifier="d2_p14_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qN7-b6-SUF" customClass="d2_p14_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="by3-ar-XbC">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BAJ-5r-FQl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-731" y="5397"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mBk-X8-W88">
@@ -2380,19 +2290,6 @@
             </objects>
             <point key="canvasLocation" x="-3164" y="-2009"/>
         </scene>
-        <!--p192UI View-->
-        <scene sceneID="RNy-2l-PW2">
-            <objects>
-                <navigationController storyboardIdentifier="d3_p19_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="f13-eV-l4H" customClass="d3_p19_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cZO-iv-9Xz">
-                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4YP-cT-Arc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1809" y="2691"/>
-        </scene>
         <!--p193UI View-->
         <scene sceneID="9bW-1a-1dT">
             <objects>
@@ -2419,32 +2316,49 @@
             </objects>
             <point key="canvasLocation" x="1809" y="4293"/>
         </scene>
-        <!--View Controller-->
+        <!--Test2UI View Controller-->
         <scene sceneID="EeB-ZQ-C9b">
             <objects>
-                <viewController storyboardIdentifier="d3_p19_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Pkr-xn-SNt" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AR_Test2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Pkr-xn-SNt" customClass="AR_Test_2_UIViewController" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sx7-uN-val">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Peephole with Person" translatesAutoresizingMaskIntoConstraints="NO" id="nAc-0A-2tt">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gray filter at 80%" translatesAutoresizingMaskIntoConstraints="NO" id="Lqb-sA-SpE">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Peephole with Person-1" translatesAutoresizingMaskIntoConstraints="NO" id="v4l-N0-j5g">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </imageView>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uBN-cM-QQi">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </arscnView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="nAc-0A-2tt" firstAttribute="height" secondItem="sx7-uN-val" secondAttribute="height" id="M0u-FD-EDo"/>
-                            <constraint firstItem="nAc-0A-2tt" firstAttribute="width" secondItem="sx7-uN-val" secondAttribute="width" id="OHC-va-dfe"/>
-                            <constraint firstItem="nAc-0A-2tt" firstAttribute="centerY" secondItem="sx7-uN-val" secondAttribute="centerY" id="b7P-ch-KIz"/>
-                            <constraint firstItem="nAc-0A-2tt" firstAttribute="centerX" secondItem="sx7-uN-val" secondAttribute="centerX" id="n66-AY-yD1"/>
+                            <constraint firstItem="uBN-cM-QQi" firstAttribute="centerY" secondItem="sx7-uN-val" secondAttribute="centerY" id="5zH-TI-xqq"/>
+                            <constraint firstItem="Lqb-sA-SpE" firstAttribute="height" secondItem="sx7-uN-val" secondAttribute="height" id="6qm-HA-CST"/>
+                            <constraint firstItem="uBN-cM-QQi" firstAttribute="width" secondItem="sx7-uN-val" secondAttribute="width" id="7fh-57-Sty"/>
+                            <constraint firstItem="v4l-N0-j5g" firstAttribute="height" secondItem="sx7-uN-val" secondAttribute="height" id="A4L-2e-era"/>
+                            <constraint firstItem="Lqb-sA-SpE" firstAttribute="centerY" secondItem="sx7-uN-val" secondAttribute="centerY" id="ASL-qf-M8o"/>
+                            <constraint firstItem="Lqb-sA-SpE" firstAttribute="centerX" secondItem="sx7-uN-val" secondAttribute="centerX" id="AXo-cX-J5j"/>
+                            <constraint firstItem="v4l-N0-j5g" firstAttribute="centerX" secondItem="sx7-uN-val" secondAttribute="centerX" id="EUB-uU-dKL"/>
+                            <constraint firstItem="v4l-N0-j5g" firstAttribute="centerY" secondItem="sx7-uN-val" secondAttribute="centerY" id="Fo5-oa-yKR"/>
+                            <constraint firstItem="Lqb-sA-SpE" firstAttribute="width" secondItem="sx7-uN-val" secondAttribute="width" id="Ww9-hb-3uC"/>
+                            <constraint firstItem="uBN-cM-QQi" firstAttribute="height" secondItem="sx7-uN-val" secondAttribute="height" id="Yzx-jx-j2c"/>
+                            <constraint firstItem="v4l-N0-j5g" firstAttribute="width" secondItem="sx7-uN-val" secondAttribute="width" id="nFA-q5-i8Z"/>
+                            <constraint firstItem="uBN-cM-QQi" firstAttribute="centerX" secondItem="sx7-uN-val" secondAttribute="centerX" id="qmU-sB-fWo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EdQ-F1-WEU"/>
                     </view>
                     <size key="freeformSize" width="728" height="376"/>
+                    <connections>
+                        <outlet property="AloneAR" destination="uBN-cM-QQi" id="A2K-od-CU2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z3A-Or-vIy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2466" y="2662"/>
+            <point key="canvasLocation" x="2411" y="2661"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eDk-vg-dqu">
@@ -2508,7 +2422,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Door Day 3" translatesAutoresizingMaskIntoConstraints="NO" id="VA2-lk-C5I">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p20_1-1" translatesAutoresizingMaskIntoConstraints="NO" id="VA2-lk-C5I">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -2540,10 +2454,10 @@
             </objects>
             <point key="canvasLocation" x="1815" y="7271"/>
         </scene>
-        <!--p203UI View-->
+        <!--View-->
         <scene sceneID="ymR-Pg-rQd">
             <objects>
-                <navigationController storyboardIdentifier="d3_p20_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mX3-kb-FqK" customClass="d3_p20_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="AR_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mX3-kb-FqK" customClass="AR_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Vhu-b4-jIG">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2606,28 +2520,45 @@
             </objects>
             <point key="canvasLocation" x="2464" y="5758"/>
         </scene>
-        <!--View Controller-->
+        <!--Test3UI View Controller-->
         <scene sceneID="eRu-NZ-9xs">
             <objects>
-                <viewController storyboardIdentifier="d3_p20_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="okt-NP-M50" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AR_Test3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="okt-NP-M50" customClass="AR_Test_3_UIViewController" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zhL-QM-eZW">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Peephole with Boxes" translatesAutoresizingMaskIntoConstraints="NO" id="9YI-v9-JQw">
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bhc-EB-4Hd">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </arscnView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gray filter at 60%" translatesAutoresizingMaskIntoConstraints="NO" id="uWH-og-rzT">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Peephole with Boxes-1" translatesAutoresizingMaskIntoConstraints="NO" id="HBj-Wk-BKU">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="9YI-v9-JQw" firstAttribute="height" secondItem="zhL-QM-eZW" secondAttribute="height" id="Chr-RK-0jp"/>
-                            <constraint firstItem="9YI-v9-JQw" firstAttribute="width" secondItem="zhL-QM-eZW" secondAttribute="width" id="RlJ-Jg-Ujx"/>
-                            <constraint firstItem="9YI-v9-JQw" firstAttribute="centerY" secondItem="zhL-QM-eZW" secondAttribute="centerY" id="Tmk-eq-bla"/>
-                            <constraint firstItem="9YI-v9-JQw" firstAttribute="centerX" secondItem="zhL-QM-eZW" secondAttribute="centerX" id="zXU-3X-V0Z"/>
+                            <constraint firstItem="HBj-Wk-BKU" firstAttribute="height" secondItem="zhL-QM-eZW" secondAttribute="height" id="6wB-iU-ZPb"/>
+                            <constraint firstItem="HBj-Wk-BKU" firstAttribute="width" secondItem="zhL-QM-eZW" secondAttribute="width" id="ERL-Xs-5x5"/>
+                            <constraint firstItem="uWH-og-rzT" firstAttribute="centerY" secondItem="zhL-QM-eZW" secondAttribute="centerY" id="HUp-H5-27w"/>
+                            <constraint firstItem="bhc-EB-4Hd" firstAttribute="height" secondItem="zhL-QM-eZW" secondAttribute="height" id="JGU-yP-QfO"/>
+                            <constraint firstItem="uWH-og-rzT" firstAttribute="centerX" secondItem="zhL-QM-eZW" secondAttribute="centerX" id="Jvf-OP-VbZ"/>
+                            <constraint firstItem="bhc-EB-4Hd" firstAttribute="width" secondItem="zhL-QM-eZW" secondAttribute="width" id="NOm-Lh-XS6"/>
+                            <constraint firstItem="bhc-EB-4Hd" firstAttribute="centerX" secondItem="zhL-QM-eZW" secondAttribute="centerX" id="Qy8-s8-Xnm"/>
+                            <constraint firstItem="HBj-Wk-BKU" firstAttribute="centerX" secondItem="zhL-QM-eZW" secondAttribute="centerX" id="S6b-Fc-8I8"/>
+                            <constraint firstItem="uWH-og-rzT" firstAttribute="width" secondItem="zhL-QM-eZW" secondAttribute="width" id="cuH-nv-VPp"/>
+                            <constraint firstItem="HBj-Wk-BKU" firstAttribute="centerY" secondItem="zhL-QM-eZW" secondAttribute="centerY" id="jvh-px-Ezc"/>
+                            <constraint firstItem="bhc-EB-4Hd" firstAttribute="centerY" secondItem="zhL-QM-eZW" secondAttribute="centerY" id="uqC-sU-K0N"/>
+                            <constraint firstItem="uWH-og-rzT" firstAttribute="height" secondItem="zhL-QM-eZW" secondAttribute="height" id="vz2-qa-ahd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2gH-Wy-YGX"/>
                     </view>
                     <size key="freeformSize" width="728" height="376"/>
+                    <connections>
+                        <outlet property="AloneAR2" destination="bhc-EB-4Hd" id="18L-Mf-PMf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uab-pW-zN3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2774,7 +2705,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Picture on Table" translatesAutoresizingMaskIntoConstraints="NO" id="SbP-Nt-GSW">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p2_3" translatesAutoresizingMaskIntoConstraints="NO" id="SbP-Nt-GSW">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -2840,7 +2771,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Picture on Table" translatesAutoresizingMaskIntoConstraints="NO" id="Q6a-R9-KHF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p2_4" translatesAutoresizingMaskIntoConstraints="NO" id="Q6a-R9-KHF">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -2867,7 +2798,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Picture on Table" translatesAutoresizingMaskIntoConstraints="NO" id="Au4-R2-sh7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p3_1" translatesAutoresizingMaskIntoConstraints="NO" id="Au4-R2-sh7">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -2894,7 +2825,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Combined p6_2" translatesAutoresizingMaskIntoConstraints="NO" id="9vR-iw-oZO">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p3_2 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="9vR-iw-oZO">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -2947,7 +2878,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="combined p3_3" translatesAutoresizingMaskIntoConstraints="NO" id="WX8-nD-RPc">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p3_3 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="WX8-nD-RPc">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -2974,7 +2905,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="combined p3_3-1" translatesAutoresizingMaskIntoConstraints="NO" id="KYi-up-Z9v">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p3_4 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="KYi-up-Z9v">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -3055,7 +2986,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p4_4" translatesAutoresizingMaskIntoConstraints="NO" id="gsJ-d2-YWg">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p4_4 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="gsJ-d2-YWg">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -3108,7 +3039,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p4_4" translatesAutoresizingMaskIntoConstraints="NO" id="Poj-rC-3X3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p5_1 Combined with Text-1" translatesAutoresizingMaskIntoConstraints="NO" id="Poj-rC-3X3">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -3135,7 +3066,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Television Red Circle Day 4" translatesAutoresizingMaskIntoConstraints="NO" id="1zz-Bw-5QY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p5_2 with Text" translatesAutoresizingMaskIntoConstraints="NO" id="1zz-Bw-5QY">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -3282,7 +3213,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Combined p6_2" translatesAutoresizingMaskIntoConstraints="NO" id="CgD-wk-WIo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p6_2 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="CgD-wk-WIo">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -3309,7 +3240,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Combined p6_3" translatesAutoresizingMaskIntoConstraints="NO" id="6Hw-jA-qJw">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p6_3 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="6Hw-jA-qJw">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -3336,7 +3267,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p16_4 Combined" translatesAutoresizingMaskIntoConstraints="NO" id="lfH-e7-Zth">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p6_4 Combined with Text-1" translatesAutoresizingMaskIntoConstraints="NO" id="lfH-e7-Zth">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -3354,6 +3285,19 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="taw-yg-hEg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5241" y="1525"/>
+        </scene>
+        <!--View-->
+        <scene sceneID="D3B-8N-RSU">
+            <objects>
+                <navigationController storyboardIdentifier="AR_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="35t-tg-Ox2" customClass="AR_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9qw-vU-S2y">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dAj-ip-Qah" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1807" y="2694"/>
         </scene>
         <!--p72UI View-->
         <scene sceneID="6ID-OJ-eys">
@@ -3389,7 +3333,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Picture on Table" translatesAutoresizingMaskIntoConstraints="NO" id="A59-Vv-Lhx">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p7_1" translatesAutoresizingMaskIntoConstraints="NO" id="A59-Vv-Lhx">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -3469,7 +3413,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p7_3 combined-1" translatesAutoresizingMaskIntoConstraints="NO" id="w5c-jf-Dyy">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p7_3 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="w5c-jf-Dyy">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -3666,22 +3610,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Long Kitchen 2" translatesAutoresizingMaskIntoConstraints="NO" id="TPQ-2g-h3r">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p9_1 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="TPQ-2g-h3r">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p9_1figure" translatesAutoresizingMaskIntoConstraints="NO" id="syt-vM-MRW">
-                                <rect key="frame" x="-655.33333333333337" y="94" width="2184" height="112.66666666666669"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="syt-vM-MRW" firstAttribute="centerY" secondItem="t7A-mR-9SJ" secondAttribute="centerY" multiplier="0.8" id="7lF-J9-anp"/>
-                            <constraint firstItem="syt-vM-MRW" firstAttribute="width" secondItem="t7A-mR-9SJ" secondAttribute="width" multiplier="3" id="HR1-O9-UE0"/>
                             <constraint firstItem="TPQ-2g-h3r" firstAttribute="centerY" secondItem="t7A-mR-9SJ" secondAttribute="centerY" id="LJa-Iq-KgX"/>
-                            <constraint firstItem="syt-vM-MRW" firstAttribute="height" secondItem="t7A-mR-9SJ" secondAttribute="height" multiplier="0.3" id="Out-dB-74w"/>
                             <constraint firstItem="TPQ-2g-h3r" firstAttribute="width" secondItem="t7A-mR-9SJ" secondAttribute="width" id="P1p-5j-cJn"/>
                             <constraint firstItem="TPQ-2g-h3r" firstAttribute="centerX" secondItem="t7A-mR-9SJ" secondAttribute="centerX" id="Qhs-9S-TE7"/>
-                            <constraint firstItem="syt-vM-MRW" firstAttribute="centerX" secondItem="t7A-mR-9SJ" secondAttribute="centerX" multiplier="1.2" id="i4y-ao-0RA"/>
                             <constraint firstItem="TPQ-2g-h3r" firstAttribute="height" secondItem="t7A-mR-9SJ" secondAttribute="height" id="rqC-9x-KZD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="v7h-1R-IBP"/>
@@ -3700,23 +3637,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Long Kitchen 2" translatesAutoresizingMaskIntoConstraints="NO" id="KUJ-K8-QYK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p9_2 Combined with Text-2" translatesAutoresizingMaskIntoConstraints="NO" id="KUJ-K8-QYK">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p9_2figure" translatesAutoresizingMaskIntoConstraints="NO" id="fBt-Ds-TOa">
-                                <rect key="frame" x="-36.333333333333329" y="94" width="218.33333333333331" height="112.66666666666669"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="KUJ-K8-QYK" firstAttribute="width" secondItem="OKY-fE-681" secondAttribute="width" id="Bor-V1-oTE"/>
-                            <constraint firstItem="fBt-Ds-TOa" firstAttribute="centerX" secondItem="OKY-fE-681" secondAttribute="centerX" multiplier="0.2" id="RA3-24-n9H"/>
-                            <constraint firstItem="fBt-Ds-TOa" firstAttribute="width" secondItem="OKY-fE-681" secondAttribute="width" multiplier="0.3" id="a0a-4o-bwY"/>
                             <constraint firstItem="KUJ-K8-QYK" firstAttribute="centerY" secondItem="OKY-fE-681" secondAttribute="centerY" id="dMd-rp-4eC"/>
                             <constraint firstItem="KUJ-K8-QYK" firstAttribute="height" secondItem="OKY-fE-681" secondAttribute="height" id="h0r-3J-6oD"/>
                             <constraint firstItem="KUJ-K8-QYK" firstAttribute="centerX" secondItem="OKY-fE-681" secondAttribute="centerX" id="kuN-v9-yG9"/>
-                            <constraint firstItem="fBt-Ds-TOa" firstAttribute="centerY" secondItem="OKY-fE-681" secondAttribute="centerY" multiplier="0.8" id="llK-xj-oRM"/>
-                            <constraint firstItem="fBt-Ds-TOa" firstAttribute="height" secondItem="OKY-fE-681" secondAttribute="height" multiplier="0.3" id="uce-LT-syy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Y67-Tz-9Gk"/>
                     </view>
@@ -3734,23 +3664,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Long Kitchen" translatesAutoresizingMaskIntoConstraints="NO" id="TDI-bQ-YhR">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p9_3 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="TDI-bQ-YhR">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p9_3figure" translatesAutoresizingMaskIntoConstraints="NO" id="eHl-rS-f9g">
-                                <rect key="frame" x="-254.66666666666666" y="112.66666666666667" width="655" height="225.66666666666663"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="eHl-rS-f9g" firstAttribute="width" secondItem="G1o-Bw-OVg" secondAttribute="width" multiplier="0.9" id="I0R-Sf-Rzh"/>
-                            <constraint firstItem="eHl-rS-f9g" firstAttribute="height" secondItem="G1o-Bw-OVg" secondAttribute="height" multiplier="0.6" id="IvT-ph-Zlr"/>
                             <constraint firstItem="TDI-bQ-YhR" firstAttribute="centerY" secondItem="G1o-Bw-OVg" secondAttribute="centerY" id="Mij-1p-XQi"/>
                             <constraint firstItem="TDI-bQ-YhR" firstAttribute="centerX" secondItem="G1o-Bw-OVg" secondAttribute="centerX" id="R65-NI-06E"/>
                             <constraint firstItem="TDI-bQ-YhR" firstAttribute="width" secondItem="G1o-Bw-OVg" secondAttribute="width" id="YlU-pZ-K97"/>
-                            <constraint firstItem="eHl-rS-f9g" firstAttribute="centerY" secondItem="G1o-Bw-OVg" secondAttribute="centerY" multiplier="1.2" id="d4q-jr-hUI"/>
                             <constraint firstItem="TDI-bQ-YhR" firstAttribute="height" secondItem="G1o-Bw-OVg" secondAttribute="height" id="fX4-g9-Yg0"/>
-                            <constraint firstItem="eHl-rS-f9g" firstAttribute="centerX" secondItem="G1o-Bw-OVg" secondAttribute="centerX" multiplier="0.2" id="jUd-LD-OQr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0oh-Wt-3Op"/>
                     </view>
@@ -3768,22 +3691,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Long Room" translatesAutoresizingMaskIntoConstraints="NO" id="ndi-2n-gQQ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p9_4 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="ndi-2n-gQQ">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p9_4figure" translatesAutoresizingMaskIntoConstraints="NO" id="hEQ-cD-6XD">
-                                <rect key="frame" x="-254.66666666666666" y="18.666666666666657" width="655" height="338.66666666666674"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="hEQ-cD-6XD" firstAttribute="centerY" secondItem="SL1-Yb-u4h" secondAttribute="centerY" id="3RY-FZ-H8t"/>
-                            <constraint firstItem="hEQ-cD-6XD" firstAttribute="width" secondItem="SL1-Yb-u4h" secondAttribute="width" multiplier="0.9" id="HXa-w8-Zl2"/>
                             <constraint firstItem="ndi-2n-gQQ" firstAttribute="width" secondItem="SL1-Yb-u4h" secondAttribute="width" id="ZPV-Ok-4vF"/>
                             <constraint firstItem="ndi-2n-gQQ" firstAttribute="height" secondItem="SL1-Yb-u4h" secondAttribute="height" id="ek5-tU-iKn"/>
                             <constraint firstItem="ndi-2n-gQQ" firstAttribute="centerY" secondItem="SL1-Yb-u4h" secondAttribute="centerY" id="fS8-qN-Hph"/>
-                            <constraint firstItem="hEQ-cD-6XD" firstAttribute="centerX" secondItem="SL1-Yb-u4h" secondAttribute="centerX" multiplier="0.2" id="gni-XD-2ks"/>
-                            <constraint firstItem="hEQ-cD-6XD" firstAttribute="height" secondItem="SL1-Yb-u4h" secondAttribute="height" multiplier="0.9" id="ivS-Yh-zT8"/>
                             <constraint firstItem="ndi-2n-gQQ" firstAttribute="centerX" secondItem="SL1-Yb-u4h" secondAttribute="centerX" id="kfc-Yo-atu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bxo-GA-1TO"/>
@@ -3871,16 +3787,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p10_3figure4" translatesAutoresizingMaskIntoConstraints="NO" id="QiA-pE-lT2">
-                                <rect key="frame" x="291.33333333333326" y="18.666666666666657" width="655" height="338.66666666666674"/>
+                                <rect key="frame" x="291.33333333333326" y="84.666666666666671" width="655" height="244.33333333333331"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="3QU-rp-gUO" firstAttribute="centerX" secondItem="aiT-jq-1GW" secondAttribute="centerX" id="D7b-gg-sXP"/>
-                            <constraint firstItem="QiA-pE-lT2" firstAttribute="height" secondItem="aiT-jq-1GW" secondAttribute="height" multiplier="0.9" id="Qdg-R0-W8k"/>
+                            <constraint firstItem="QiA-pE-lT2" firstAttribute="height" secondItem="aiT-jq-1GW" secondAttribute="height" multiplier="0.65" id="Qdg-R0-W8k"/>
                             <constraint firstItem="QiA-pE-lT2" firstAttribute="centerX" secondItem="aiT-jq-1GW" secondAttribute="centerX" multiplier="1.7" id="dTP-16-la8"/>
                             <constraint firstItem="3QU-rp-gUO" firstAttribute="centerY" secondItem="aiT-jq-1GW" secondAttribute="centerY" id="gVi-ss-ysd"/>
-                            <constraint firstItem="QiA-pE-lT2" firstAttribute="centerY" secondItem="aiT-jq-1GW" secondAttribute="centerY" id="q3e-Tm-wZe"/>
+                            <constraint firstItem="QiA-pE-lT2" firstAttribute="centerY" secondItem="aiT-jq-1GW" secondAttribute="centerY" multiplier="1.1" id="q3e-Tm-wZe"/>
                             <constraint firstItem="3QU-rp-gUO" firstAttribute="width" secondItem="aiT-jq-1GW" secondAttribute="width" id="r7U-Eb-NRf"/>
                             <constraint firstItem="QiA-pE-lT2" firstAttribute="width" secondItem="aiT-jq-1GW" secondAttribute="width" multiplier="0.9" id="wYg-zt-aaD"/>
                             <constraint firstItem="3QU-rp-gUO" firstAttribute="height" secondItem="aiT-jq-1GW" secondAttribute="height" id="wfm-U2-eGU"/>
@@ -3905,15 +3821,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p10_3figure3" translatesAutoresizingMaskIntoConstraints="NO" id="NvQ-1I-YjL">
-                                <rect key="frame" x="36.333333333333314" y="18.666666666666657" width="655.33333333333348" height="338.66666666666674"/>
+                                <rect key="frame" x="36.333333333333314" y="84.666666666666671" width="655.33333333333348" height="244.33333333333331"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="NvQ-1I-YjL" firstAttribute="width" secondItem="rPM-fz-ZdK" secondAttribute="width" multiplier="0.9" id="2fS-0O-Eti"/>
-                            <constraint firstItem="NvQ-1I-YjL" firstAttribute="centerY" secondItem="rPM-fz-ZdK" secondAttribute="centerY" id="BIR-V9-FNI"/>
+                            <constraint firstItem="NvQ-1I-YjL" firstAttribute="centerY" secondItem="rPM-fz-ZdK" secondAttribute="centerY" multiplier="1.1" id="BIR-V9-FNI"/>
                             <constraint firstItem="omo-lo-3cF" firstAttribute="centerY" secondItem="rPM-fz-ZdK" secondAttribute="centerY" id="Emd-ZD-apy"/>
-                            <constraint firstItem="NvQ-1I-YjL" firstAttribute="height" secondItem="rPM-fz-ZdK" secondAttribute="height" multiplier="0.9" id="Oei-Id-Pxp"/>
+                            <constraint firstItem="NvQ-1I-YjL" firstAttribute="height" secondItem="rPM-fz-ZdK" secondAttribute="height" multiplier="0.65" id="Oei-Id-Pxp"/>
                             <constraint firstItem="omo-lo-3cF" firstAttribute="centerX" secondItem="rPM-fz-ZdK" secondAttribute="centerX" id="QV9-MR-eUF"/>
                             <constraint firstItem="omo-lo-3cF" firstAttribute="width" secondItem="rPM-fz-ZdK" secondAttribute="width" id="Sp3-Mi-oCh"/>
                             <constraint firstItem="omo-lo-3cF" firstAttribute="height" secondItem="rPM-fz-ZdK" secondAttribute="height" id="rhZ-ti-yxI"/>
@@ -3935,22 +3851,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Long Room" translatesAutoresizingMaskIntoConstraints="NO" id="p1F-Ag-B6r">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p10_4 Combined and Text" translatesAutoresizingMaskIntoConstraints="NO" id="p1F-Ag-B6r">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p10_3figure2" translatesAutoresizingMaskIntoConstraints="NO" id="StM-zF-ZFW">
-                                <rect key="frame" x="-182" y="18.666666666666657" width="655.33333333333337" height="338.66666666666674"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="p1F-Ag-B6r" firstAttribute="centerY" secondItem="km7-CA-KFF" secondAttribute="centerY" id="1n8-Ec-ojb"/>
-                            <constraint firstItem="StM-zF-ZFW" firstAttribute="centerY" secondItem="km7-CA-KFF" secondAttribute="centerY" id="FeJ-zu-XcV"/>
                             <constraint firstItem="p1F-Ag-B6r" firstAttribute="centerX" secondItem="km7-CA-KFF" secondAttribute="centerX" id="HIj-KA-pKj"/>
-                            <constraint firstItem="StM-zF-ZFW" firstAttribute="width" secondItem="km7-CA-KFF" secondAttribute="width" multiplier="0.9" id="VLM-Pf-GFu"/>
-                            <constraint firstItem="StM-zF-ZFW" firstAttribute="height" secondItem="km7-CA-KFF" secondAttribute="height" multiplier="0.9" id="dGm-dE-EbC"/>
                             <constraint firstItem="p1F-Ag-B6r" firstAttribute="width" secondItem="km7-CA-KFF" secondAttribute="width" id="gVq-sn-2CN"/>
-                            <constraint firstItem="StM-zF-ZFW" firstAttribute="centerX" secondItem="km7-CA-KFF" secondAttribute="centerX" multiplier="0.4" id="i0l-Gh-1AE"/>
                             <constraint firstItem="p1F-Ag-B6r" firstAttribute="height" secondItem="km7-CA-KFF" secondAttribute="height" id="qmD-J8-kCw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pfa-Tl-3fJ"/>
@@ -3973,17 +3882,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p10_3figure1" translatesAutoresizingMaskIntoConstraints="NO" id="cvV-QO-rWr">
-                                <rect key="frame" x="145.66666666666663" y="18.666666666666657" width="655" height="338.66666666666674"/>
+                                <rect key="frame" x="145.66666666666663" y="103.33333333333333" width="655" height="244.33333333333337"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="GqS-jS-mg0" firstAttribute="centerY" secondItem="fuq-eZ-hry" secondAttribute="centerY" id="0ML-ss-aw1"/>
                             <constraint firstItem="GqS-jS-mg0" firstAttribute="height" secondItem="fuq-eZ-hry" secondAttribute="height" id="7lA-n9-JjY"/>
-                            <constraint firstItem="cvV-QO-rWr" firstAttribute="height" secondItem="fuq-eZ-hry" secondAttribute="height" multiplier="0.9" id="D4k-nr-R1n"/>
+                            <constraint firstItem="cvV-QO-rWr" firstAttribute="height" secondItem="fuq-eZ-hry" secondAttribute="height" multiplier="0.65" id="D4k-nr-R1n"/>
                             <constraint firstItem="cvV-QO-rWr" firstAttribute="centerX" secondItem="fuq-eZ-hry" secondAttribute="centerX" multiplier="1.3" id="Nrc-6q-JGc"/>
                             <constraint firstItem="GqS-jS-mg0" firstAttribute="width" secondItem="fuq-eZ-hry" secondAttribute="width" id="hN9-09-81k"/>
-                            <constraint firstItem="cvV-QO-rWr" firstAttribute="centerY" secondItem="fuq-eZ-hry" secondAttribute="centerY" id="j23-Iv-9Y3"/>
+                            <constraint firstItem="cvV-QO-rWr" firstAttribute="centerY" secondItem="fuq-eZ-hry" secondAttribute="centerY" multiplier="1.2" id="j23-Iv-9Y3"/>
                             <constraint firstItem="cvV-QO-rWr" firstAttribute="width" secondItem="fuq-eZ-hry" secondAttribute="width" multiplier="0.9" id="jpR-i0-cjh"/>
                             <constraint firstItem="GqS-jS-mg0" firstAttribute="centerX" secondItem="fuq-eZ-hry" secondAttribute="centerX" id="uwQ-qp-XZG"/>
                         </constraints>
@@ -4003,22 +3912,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Long Room" translatesAutoresizingMaskIntoConstraints="NO" id="Mma-Lw-R2i">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p10_2 Combined and Text" translatesAutoresizingMaskIntoConstraints="NO" id="Mma-Lw-R2i">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p10_2figure" translatesAutoresizingMaskIntoConstraints="NO" id="M3r-83-AfE">
-                                <rect key="frame" x="-218.33333333333334" y="18.666666666666657" width="655" height="338.66666666666674"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="M3r-83-AfE" firstAttribute="centerY" secondItem="MY3-Mh-yGR" secondAttribute="centerY" id="8CS-kS-GFj"/>
                             <constraint firstItem="Mma-Lw-R2i" firstAttribute="centerY" secondItem="MY3-Mh-yGR" secondAttribute="centerY" id="I9V-pU-x5m"/>
-                            <constraint firstItem="M3r-83-AfE" firstAttribute="width" secondItem="MY3-Mh-yGR" secondAttribute="width" multiplier="0.9" id="PvE-3f-cVz"/>
-                            <constraint firstItem="M3r-83-AfE" firstAttribute="centerX" secondItem="MY3-Mh-yGR" secondAttribute="centerX" multiplier="0.3" id="Rsn-qm-Euf"/>
                             <constraint firstItem="Mma-Lw-R2i" firstAttribute="height" secondItem="MY3-Mh-yGR" secondAttribute="height" id="SdE-RR-3Gv"/>
                             <constraint firstItem="Mma-Lw-R2i" firstAttribute="width" secondItem="MY3-Mh-yGR" secondAttribute="width" id="hbi-in-KrX"/>
-                            <constraint firstItem="M3r-83-AfE" firstAttribute="height" secondItem="MY3-Mh-yGR" secondAttribute="height" multiplier="0.9" id="iSw-f0-wby"/>
                             <constraint firstItem="Mma-Lw-R2i" firstAttribute="centerX" secondItem="MY3-Mh-yGR" secondAttribute="centerX" id="w6n-WI-Yao"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xuV-YZ-LbX"/>
@@ -4041,16 +3943,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p10_1figure" translatesAutoresizingMaskIntoConstraints="NO" id="Mi5-cp-Ikk">
-                                <rect key="frame" x="-254.66666666666666" y="18.666666666666657" width="655" height="338.66666666666674"/>
+                                <rect key="frame" x="-254.66666666666666" y="84.666666666666671" width="655" height="244.33333333333331"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Mi5-cp-Ikk" firstAttribute="centerY" secondItem="N32-um-wzX" secondAttribute="centerY" id="Bi5-d9-S0x"/>
+                            <constraint firstItem="Mi5-cp-Ikk" firstAttribute="centerY" secondItem="N32-um-wzX" secondAttribute="centerY" multiplier="1.1" id="Bi5-d9-S0x"/>
                             <constraint firstItem="Mi5-cp-Ikk" firstAttribute="width" secondItem="N32-um-wzX" secondAttribute="width" multiplier="0.9" id="Fa1-Xq-B85"/>
                             <constraint firstItem="C0d-Uc-agB" firstAttribute="centerY" secondItem="N32-um-wzX" secondAttribute="centerY" id="JV4-a7-AHb"/>
                             <constraint firstItem="Mi5-cp-Ikk" firstAttribute="centerX" secondItem="N32-um-wzX" secondAttribute="centerX" multiplier="0.2" id="P8o-DT-RtY"/>
-                            <constraint firstItem="Mi5-cp-Ikk" firstAttribute="height" secondItem="N32-um-wzX" secondAttribute="height" multiplier="0.9" id="Pqb-2z-0xf"/>
+                            <constraint firstItem="Mi5-cp-Ikk" firstAttribute="height" secondItem="N32-um-wzX" secondAttribute="height" multiplier="0.65" id="Pqb-2z-0xf"/>
                             <constraint firstItem="C0d-Uc-agB" firstAttribute="centerX" secondItem="N32-um-wzX" secondAttribute="centerX" id="RfF-rl-rQ4"/>
                             <constraint firstItem="C0d-Uc-agB" firstAttribute="width" secondItem="N32-um-wzX" secondAttribute="width" id="rKW-Du-BsY"/>
                             <constraint firstItem="C0d-Uc-agB" firstAttribute="height" secondItem="N32-um-wzX" secondAttribute="height" id="wlg-hK-Yv1"/>
@@ -4071,23 +3973,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Door Day 4" translatesAutoresizingMaskIntoConstraints="NO" id="Mpg-Qd-M1g">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p10_6 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="Mpg-Qd-M1g">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part2p10_4" translatesAutoresizingMaskIntoConstraints="NO" id="10f-m6-kT9">
-                                <rect key="frame" x="-72.666666666666657" y="99.666666666666657" width="436.66666666666663" height="263.33333333333337"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="10f-m6-kT9" firstAttribute="width" secondItem="OtH-eB-ImX" secondAttribute="width" multiplier="0.6" id="8nN-vf-uEU"/>
                             <constraint firstItem="Mpg-Qd-M1g" firstAttribute="centerX" secondItem="OtH-eB-ImX" secondAttribute="centerX" id="FpQ-nl-46u"/>
                             <constraint firstItem="Mpg-Qd-M1g" firstAttribute="height" secondItem="OtH-eB-ImX" secondAttribute="height" id="JXZ-mF-nE1"/>
-                            <constraint firstItem="10f-m6-kT9" firstAttribute="centerY" secondItem="OtH-eB-ImX" secondAttribute="centerY" multiplier="1.23" id="R4v-uW-3Kh"/>
                             <constraint firstItem="Mpg-Qd-M1g" firstAttribute="centerY" secondItem="OtH-eB-ImX" secondAttribute="centerY" id="Ux6-kO-Ra5"/>
                             <constraint firstItem="Mpg-Qd-M1g" firstAttribute="width" secondItem="OtH-eB-ImX" secondAttribute="width" id="WBt-ln-x9e"/>
-                            <constraint firstItem="10f-m6-kT9" firstAttribute="height" secondItem="OtH-eB-ImX" secondAttribute="height" multiplier="0.7" id="pW8-Kd-aqz"/>
-                            <constraint firstItem="10f-m6-kT9" firstAttribute="centerX" secondItem="OtH-eB-ImX" secondAttribute="centerX" multiplier="0.4" id="phb-78-d63"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9si-ec-5SK"/>
                     </view>
@@ -4110,10 +4005,10 @@
             </objects>
             <point key="canvasLocation" x="4625" y="17303"/>
         </scene>
-        <!--p114UI View-->
+        <!--View-->
         <scene sceneID="AsT-dY-5wS">
             <objects>
-                <navigationController storyboardIdentifier="d4_p11_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QDU-vh-6QN" customClass="d4_p11_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="AR_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QDU-vh-6QN" customClass="AR_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xTQ-93-v9F">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -4131,7 +4026,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Door Day 4" translatesAutoresizingMaskIntoConstraints="NO" id="CKX-GD-vbn">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p11_1 Combined" translatesAutoresizingMaskIntoConstraints="NO" id="CKX-GD-vbn">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -4158,7 +4053,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Door Day 4" translatesAutoresizingMaskIntoConstraints="NO" id="gKE-rB-72t">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p11_2 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="gKE-rB-72t">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -4177,28 +4072,45 @@
             </objects>
             <point key="canvasLocation" x="5233" y="18164"/>
         </scene>
-        <!--View Controller-->
+        <!--Test4UI View Controller-->
         <scene sceneID="Sea-2l-0ST">
             <objects>
-                <viewController storyboardIdentifier="d4_p11_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="t6Y-vT-CRd" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AR_Test4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="t6Y-vT-CRd" customClass="AR_Test_4_UIViewController" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KmS-NF-XKC">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Peephole Face" translatesAutoresizingMaskIntoConstraints="NO" id="kG8-gk-bfn">
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ruf-3s-NXN">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </arscnView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gray filter at 40%" translatesAutoresizingMaskIntoConstraints="NO" id="gdj-Bf-vp7">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Peephole Face-1" translatesAutoresizingMaskIntoConstraints="NO" id="iPF-01-ziI">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="kG8-gk-bfn" firstAttribute="centerY" secondItem="KmS-NF-XKC" secondAttribute="centerY" id="3aJ-xj-DZZ"/>
-                            <constraint firstItem="kG8-gk-bfn" firstAttribute="height" secondItem="KmS-NF-XKC" secondAttribute="height" id="4uZ-6A-eGF"/>
-                            <constraint firstItem="kG8-gk-bfn" firstAttribute="width" secondItem="KmS-NF-XKC" secondAttribute="width" id="kK9-FK-ldr"/>
-                            <constraint firstItem="kG8-gk-bfn" firstAttribute="centerX" secondItem="KmS-NF-XKC" secondAttribute="centerX" id="n2g-0O-IP0"/>
+                            <constraint firstItem="ruf-3s-NXN" firstAttribute="centerY" secondItem="KmS-NF-XKC" secondAttribute="centerY" id="0vc-qj-yqH"/>
+                            <constraint firstItem="gdj-Bf-vp7" firstAttribute="centerX" secondItem="KmS-NF-XKC" secondAttribute="centerX" id="3Lz-jm-Y5H"/>
+                            <constraint firstItem="iPF-01-ziI" firstAttribute="centerX" secondItem="KmS-NF-XKC" secondAttribute="centerX" id="EGg-FA-If4"/>
+                            <constraint firstItem="iPF-01-ziI" firstAttribute="centerY" secondItem="KmS-NF-XKC" secondAttribute="centerY" id="W5e-4V-NU5"/>
+                            <constraint firstItem="gdj-Bf-vp7" firstAttribute="width" secondItem="KmS-NF-XKC" secondAttribute="width" id="aBO-7n-mkk"/>
+                            <constraint firstItem="gdj-Bf-vp7" firstAttribute="height" secondItem="KmS-NF-XKC" secondAttribute="height" id="i2C-TL-ISc"/>
+                            <constraint firstItem="gdj-Bf-vp7" firstAttribute="centerY" secondItem="KmS-NF-XKC" secondAttribute="centerY" id="k0c-uo-Xsj"/>
+                            <constraint firstItem="iPF-01-ziI" firstAttribute="height" secondItem="KmS-NF-XKC" secondAttribute="height" id="pDM-gK-xWs"/>
+                            <constraint firstItem="ruf-3s-NXN" firstAttribute="height" secondItem="KmS-NF-XKC" secondAttribute="height" id="uOr-Ja-kTX"/>
+                            <constraint firstItem="iPF-01-ziI" firstAttribute="width" secondItem="KmS-NF-XKC" secondAttribute="width" id="xEG-OE-5Tr"/>
+                            <constraint firstItem="ruf-3s-NXN" firstAttribute="centerX" secondItem="KmS-NF-XKC" secondAttribute="centerX" id="xeV-8p-j9I"/>
+                            <constraint firstItem="ruf-3s-NXN" firstAttribute="width" secondItem="KmS-NF-XKC" secondAttribute="width" id="zDs-Mj-0cu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IuV-PF-lFc"/>
                     </view>
                     <size key="freeformSize" width="728" height="376"/>
+                    <connections>
+                        <outlet property="AloneAR" destination="ruf-3s-NXN" id="MS7-7P-eK1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JpY-yM-tSl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -4278,7 +4190,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p12_3&amp;4 combined" translatesAutoresizingMaskIntoConstraints="NO" id="Mfi-98-vCk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p12_4 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="Mfi-98-vCk">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -4332,7 +4244,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Page2p13_2" translatesAutoresizingMaskIntoConstraints="NO" id="hnT-hS-JW3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p13_2 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="hnT-hS-JW3">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -4385,7 +4297,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Television Day 5" translatesAutoresizingMaskIntoConstraints="NO" id="xz7-sy-R0G">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p13_3 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="xz7-sy-R0G">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -4492,22 +4404,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Couch to Left" translatesAutoresizingMaskIntoConstraints="NO" id="wM7-fK-vhf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p14_2 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="wM7-fK-vhf">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Page2p14_2" translatesAutoresizingMaskIntoConstraints="NO" id="ABA-o6-5zL">
-                                <rect key="frame" x="400.33333333333326" y="122.33333333333333" width="364" height="206.66666666666669"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="ABA-o6-5zL" firstAttribute="centerX" secondItem="pbn-u7-qZq" secondAttribute="centerX" multiplier="1.6" id="2Zi-aT-T6Q"/>
-                            <constraint firstItem="ABA-o6-5zL" firstAttribute="width" secondItem="pbn-u7-qZq" secondAttribute="width" multiplier="0.5" id="BNe-EE-w8d"/>
                             <constraint firstItem="wM7-fK-vhf" firstAttribute="centerX" secondItem="pbn-u7-qZq" secondAttribute="centerX" id="FTs-3D-YPC"/>
                             <constraint firstItem="wM7-fK-vhf" firstAttribute="centerY" secondItem="pbn-u7-qZq" secondAttribute="centerY" id="KI1-iV-uxg"/>
                             <constraint firstItem="wM7-fK-vhf" firstAttribute="height" secondItem="pbn-u7-qZq" secondAttribute="height" id="Mo7-wt-pN7"/>
-                            <constraint firstItem="ABA-o6-5zL" firstAttribute="height" secondItem="pbn-u7-qZq" secondAttribute="height" multiplier="0.55" id="iac-Le-3aM"/>
-                            <constraint firstItem="ABA-o6-5zL" firstAttribute="centerY" secondItem="pbn-u7-qZq" secondAttribute="centerY" multiplier="1.2" id="lb3-SZ-JcZ"/>
                             <constraint firstItem="wM7-fK-vhf" firstAttribute="width" secondItem="pbn-u7-qZq" secondAttribute="width" id="o6C-SJ-iOD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UxL-Hp-esq"/>
@@ -4526,23 +4431,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="D5p14_3" translatesAutoresizingMaskIntoConstraints="NO" id="dJo-Wz-wdP">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p14_3 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="dJo-Wz-wdP">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Page2p14_3" translatesAutoresizingMaskIntoConstraints="NO" id="lXZ-8u-ajD">
-                                <rect key="frame" x="-46.666666666666686" y="94" width="728" height="263.33333333333331"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="dJo-Wz-wdP" firstAttribute="height" secondItem="Zp0-dI-wU2" secondAttribute="height" id="6rt-YX-6Xy"/>
-                            <constraint firstItem="lXZ-8u-ajD" firstAttribute="centerY" secondItem="Zp0-dI-wU2" secondAttribute="centerY" multiplier="1.2" id="GjV-jg-TYh"/>
-                            <constraint firstItem="lXZ-8u-ajD" firstAttribute="width" secondItem="Zp0-dI-wU2" secondAttribute="width" id="OfA-Jl-cwi"/>
                             <constraint firstItem="dJo-Wz-wdP" firstAttribute="width" secondItem="Zp0-dI-wU2" secondAttribute="width" id="VlD-B3-NYZ"/>
                             <constraint firstItem="dJo-Wz-wdP" firstAttribute="centerY" secondItem="Zp0-dI-wU2" secondAttribute="centerY" id="fej-xb-MnW"/>
-                            <constraint firstItem="lXZ-8u-ajD" firstAttribute="height" secondItem="Zp0-dI-wU2" secondAttribute="height" multiplier="0.7" id="gzF-DD-KXa"/>
                             <constraint firstItem="dJo-Wz-wdP" firstAttribute="centerX" secondItem="Zp0-dI-wU2" secondAttribute="centerX" id="uaF-h5-PtD"/>
-                            <constraint firstItem="lXZ-8u-ajD" firstAttribute="centerX" secondItem="Zp0-dI-wU2" secondAttribute="centerX" multiplier="0.872" id="vPy-pZ-TWu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wnp-Ca-mtd"/>
                     </view>
@@ -4560,22 +4458,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Couch to Left" translatesAutoresizingMaskIntoConstraints="NO" id="JEy-qx-eEu">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p14_4 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="JEy-qx-eEu">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Page2p14_4" translatesAutoresizingMaskIntoConstraints="NO" id="fCm-Qt-gah">
-                                <rect key="frame" x="327.66666666666669" y="141" width="291.00000000000006" height="188"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="fCm-Qt-gah" firstAttribute="width" secondItem="c1l-w8-T90" secondAttribute="width" multiplier="0.4" id="3TK-Nn-4iL"/>
-                            <constraint firstItem="fCm-Qt-gah" firstAttribute="centerX" secondItem="c1l-w8-T90" secondAttribute="centerX" multiplier="1.3" id="CWC-h3-QH0"/>
                             <constraint firstItem="JEy-qx-eEu" firstAttribute="width" secondItem="c1l-w8-T90" secondAttribute="width" id="MMj-qN-eZ4"/>
-                            <constraint firstItem="fCm-Qt-gah" firstAttribute="centerY" secondItem="c1l-w8-T90" secondAttribute="centerY" multiplier="1.25" id="O1f-gL-df0"/>
                             <constraint firstItem="JEy-qx-eEu" firstAttribute="centerY" secondItem="c1l-w8-T90" secondAttribute="centerY" id="OSP-eS-Dg2"/>
                             <constraint firstItem="JEy-qx-eEu" firstAttribute="centerX" secondItem="c1l-w8-T90" secondAttribute="centerX" id="QYP-N7-fjf"/>
-                            <constraint firstItem="fCm-Qt-gah" firstAttribute="height" secondItem="c1l-w8-T90" secondAttribute="height" multiplier="0.5" id="WsL-46-aQt"/>
                             <constraint firstItem="JEy-qx-eEu" firstAttribute="height" secondItem="c1l-w8-T90" secondAttribute="height" id="zR5-jW-mE0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KFW-33-nFd"/>
@@ -4620,23 +4511,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kitchen p15_1" translatesAutoresizingMaskIntoConstraints="NO" id="gUo-1s-Evl">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p15_1-1" translatesAutoresizingMaskIntoConstraints="NO" id="gUo-1s-Evl">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Page2p15_1" translatesAutoresizingMaskIntoConstraints="NO" id="Ne9-oZ-ixI">
-                                <rect key="frame" x="36.333333333333343" y="122.33333333333333" width="291.33333333333326" height="225.33333333333337"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Ne9-oZ-ixI" firstAttribute="centerY" secondItem="SpH-Yh-W58" secondAttribute="centerY" multiplier="1.25" id="0RE-is-FSq"/>
                             <constraint firstItem="gUo-1s-Evl" firstAttribute="width" secondItem="SpH-Yh-W58" secondAttribute="width" id="2Op-gx-fTh"/>
                             <constraint firstItem="gUo-1s-Evl" firstAttribute="centerX" secondItem="SpH-Yh-W58" secondAttribute="centerX" id="DMu-qu-Dfy"/>
                             <constraint firstItem="gUo-1s-Evl" firstAttribute="height" secondItem="SpH-Yh-W58" secondAttribute="height" id="Ecm-Eb-cQA"/>
-                            <constraint firstItem="Ne9-oZ-ixI" firstAttribute="width" secondItem="SpH-Yh-W58" secondAttribute="width" multiplier="0.4" id="Tub-Sa-5VD"/>
                             <constraint firstItem="gUo-1s-Evl" firstAttribute="centerY" secondItem="SpH-Yh-W58" secondAttribute="centerY" id="Ugd-Zi-pp7"/>
-                            <constraint firstItem="Ne9-oZ-ixI" firstAttribute="centerX" secondItem="SpH-Yh-W58" secondAttribute="centerX" multiplier="0.5" id="cVp-7c-yGM"/>
-                            <constraint firstItem="Ne9-oZ-ixI" firstAttribute="height" secondItem="SpH-Yh-W58" secondAttribute="height" multiplier="0.6" id="fgd-j2-U4g"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LBA-GJ-3Rl"/>
                     </view>
@@ -4714,21 +4598,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Couch to Left" translatesAutoresizingMaskIntoConstraints="NO" id="OhD-SN-fdi">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p15_4 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="OhD-SN-fdi">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Page2p15_3and4-1" translatesAutoresizingMaskIntoConstraints="NO" id="DF5-9B-GyR">
-                                <rect key="frame" x="327.66666666666669" y="141" width="291.00000000000006" height="188"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="OhD-SN-fdi" firstAttribute="centerX" secondItem="fhx-pz-wI3" secondAttribute="centerX" id="F5v-Qy-OgW"/>
-                            <constraint firstItem="DF5-9B-GyR" firstAttribute="width" secondItem="fhx-pz-wI3" secondAttribute="width" multiplier="0.4" id="RpZ-a7-nQ0"/>
-                            <constraint firstItem="DF5-9B-GyR" firstAttribute="centerY" secondItem="fhx-pz-wI3" secondAttribute="centerY" multiplier="1.25" id="cN7-rX-Jc0"/>
                             <constraint firstItem="OhD-SN-fdi" firstAttribute="height" secondItem="fhx-pz-wI3" secondAttribute="height" id="eMm-Rl-vjc"/>
-                            <constraint firstItem="DF5-9B-GyR" firstAttribute="centerX" secondItem="fhx-pz-wI3" secondAttribute="centerX" multiplier="1.3" id="g2M-Gk-d0a"/>
-                            <constraint firstItem="DF5-9B-GyR" firstAttribute="height" secondItem="fhx-pz-wI3" secondAttribute="height" multiplier="0.5" id="hzH-mJ-8LN"/>
                             <constraint firstItem="OhD-SN-fdi" firstAttribute="width" secondItem="fhx-pz-wI3" secondAttribute="width" id="udv-49-4cz"/>
                             <constraint firstItem="OhD-SN-fdi" firstAttribute="centerY" secondItem="fhx-pz-wI3" secondAttribute="centerY" id="uuB-4t-gEs"/>
                         </constraints>
@@ -4748,22 +4625,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Couch to Left notification" translatesAutoresizingMaskIntoConstraints="NO" id="pzK-01-VwR">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p16_1 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="pzK-01-VwR">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Page2p15_3and4" translatesAutoresizingMaskIntoConstraints="NO" id="QVy-JY-gNy">
-                                <rect key="frame" x="327.66666666666669" y="141" width="291.00000000000006" height="188"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="QVy-JY-gNy" firstAttribute="width" secondItem="aAD-5e-AE4" secondAttribute="width" multiplier="0.4" id="Sgh-8x-Kh3"/>
                             <constraint firstItem="pzK-01-VwR" firstAttribute="centerY" secondItem="aAD-5e-AE4" secondAttribute="centerY" id="V5L-bG-bBn"/>
-                            <constraint firstItem="QVy-JY-gNy" firstAttribute="centerX" secondItem="aAD-5e-AE4" secondAttribute="centerX" multiplier="1.3" id="bwM-Pg-Zit"/>
                             <constraint firstItem="pzK-01-VwR" firstAttribute="centerX" secondItem="aAD-5e-AE4" secondAttribute="centerX" id="eQI-fv-oBN"/>
                             <constraint firstItem="pzK-01-VwR" firstAttribute="width" secondItem="aAD-5e-AE4" secondAttribute="width" id="icO-EW-F36"/>
-                            <constraint firstItem="QVy-JY-gNy" firstAttribute="centerY" secondItem="aAD-5e-AE4" secondAttribute="centerY" multiplier="1.25" id="mob-Pk-NW8"/>
-                            <constraint firstItem="QVy-JY-gNy" firstAttribute="height" secondItem="aAD-5e-AE4" secondAttribute="height" multiplier="0.5" id="vh5-Zq-06a"/>
                             <constraint firstItem="pzK-01-VwR" firstAttribute="height" secondItem="aAD-5e-AE4" secondAttribute="height" id="xQI-aw-So2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gdL-ga-OJ6"/>
@@ -4782,7 +4652,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p16_2 combined" translatesAutoresizingMaskIntoConstraints="NO" id="93a-Go-3Le">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p16_2 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="93a-Go-3Le">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -4822,7 +4692,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p16_3 combined-1" translatesAutoresizingMaskIntoConstraints="NO" id="a4E-2n-KkL">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p16_3 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="a4E-2n-KkL">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -4849,7 +4719,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="D5p16_4 combined" translatesAutoresizingMaskIntoConstraints="NO" id="KWW-vC-ly7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p16_4 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="KWW-vC-ly7">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -5267,10 +5137,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Part3p2_1" translatesAutoresizingMaskIntoConstraints="NO" id="560-sr-CHC">
-                                <rect key="frame" x="-20" y="0.0" width="728" height="376"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Detailed Couch Closeup" translatesAutoresizingMaskIntoConstraints="NO" id="WYT-hW-waN">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part3p2_1" translatesAutoresizingMaskIntoConstraints="NO" id="560-sr-CHC">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -5379,18 +5249,62 @@
             </objects>
             <point key="canvasLocation" x="-3170" y="-6729"/>
         </scene>
-        <!--Title Screen-->
-        <scene sceneID="9HY-Bu-UWd">
+        <!--View-->
+        <scene sceneID="aKX-Cz-6bt">
             <objects>
-                <navigationController storyboardIdentifier="TitleScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3Z3-dR-GCt" customClass="TitleScreen" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ofg-F8-HXd">
+                <navigationController storyboardIdentifier="AR" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LVP-3W-sB0" customClass="AR_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5RC-MC-kYI">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IK8-Kh-oXc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLN-HE-msY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3172" y="-7504"/>
+            <point key="canvasLocation" x="-729" y="5396"/>
+        </scene>
+        <!--TestUI View Controller-->
+        <scene sceneID="iVq-Gq-cov">
+            <objects>
+                <viewController storyboardIdentifier="AR_Test" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Eva-uy-r4e" customClass="AR_Test_UIViewController" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u44-Lh-qxp">
+                        <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C6h-fH-uz0">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </arscnView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gray filter at 90%" translatesAutoresizingMaskIntoConstraints="NO" id="C0L-qT-5Ve">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Peephole-1" translatesAutoresizingMaskIntoConstraints="NO" id="zid-Nx-ksd">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="C6h-fH-uz0" firstAttribute="width" secondItem="u44-Lh-qxp" secondAttribute="width" id="3Jt-hi-YIg"/>
+                            <constraint firstItem="C0L-qT-5Ve" firstAttribute="height" secondItem="u44-Lh-qxp" secondAttribute="height" id="3a4-CF-CMg"/>
+                            <constraint firstItem="zid-Nx-ksd" firstAttribute="centerY" secondItem="u44-Lh-qxp" secondAttribute="centerY" id="95c-r8-1lt"/>
+                            <constraint firstItem="zid-Nx-ksd" firstAttribute="centerX" secondItem="u44-Lh-qxp" secondAttribute="centerX" id="FHZ-ds-fhA"/>
+                            <constraint firstItem="C0L-qT-5Ve" firstAttribute="centerX" secondItem="u44-Lh-qxp" secondAttribute="centerX" id="Szg-aV-8gg"/>
+                            <constraint firstItem="C6h-fH-uz0" firstAttribute="height" secondItem="u44-Lh-qxp" secondAttribute="height" id="b8w-qE-ODV"/>
+                            <constraint firstItem="C0L-qT-5Ve" firstAttribute="centerY" secondItem="u44-Lh-qxp" secondAttribute="centerY" id="kJW-cK-24G"/>
+                            <constraint firstItem="zid-Nx-ksd" firstAttribute="height" secondItem="u44-Lh-qxp" secondAttribute="height" id="kqZ-dz-gwq"/>
+                            <constraint firstItem="C6h-fH-uz0" firstAttribute="centerY" secondItem="u44-Lh-qxp" secondAttribute="centerY" id="lc0-lI-dv1"/>
+                            <constraint firstItem="C0L-qT-5Ve" firstAttribute="width" secondItem="u44-Lh-qxp" secondAttribute="width" id="nhu-i2-1YM"/>
+                            <constraint firstItem="zid-Nx-ksd" firstAttribute="width" secondItem="u44-Lh-qxp" secondAttribute="width" id="vzb-27-YHI"/>
+                            <constraint firstItem="C6h-fH-uz0" firstAttribute="centerX" secondItem="u44-Lh-qxp" secondAttribute="centerX" id="wej-6T-Ule"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LRY-uX-UNi"/>
+                    </view>
+                    <size key="freeformSize" width="728" height="376"/>
+                    <connections>
+                        <outlet property="AloneAR" destination="C6h-fH-uz0" id="V4M-e3-jgo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qdM-gi-c5a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-28" y="5387"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dFE-co-aIN">
@@ -5554,6 +5468,46 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x6Q-60-U0r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8221" y="19480"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="K7T-83-sRj">
+            <objects>
+                <viewController storyboardIdentifier="d5_p3_1_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4Xr-iH-YXe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TES-0Y-Wfa">
+                        <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Door Day 5" translatesAutoresizingMaskIntoConstraints="NO" id="ztC-dA-YEy">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ztC-dA-YEy" firstAttribute="width" secondItem="TES-0Y-Wfa" secondAttribute="width" id="NkE-Op-O2L"/>
+                            <constraint firstItem="ztC-dA-YEy" firstAttribute="height" secondItem="TES-0Y-Wfa" secondAttribute="height" id="lBP-ag-b8H"/>
+                            <constraint firstItem="ztC-dA-YEy" firstAttribute="centerY" secondItem="TES-0Y-Wfa" secondAttribute="centerY" id="st7-oi-swe"/>
+                            <constraint firstItem="ztC-dA-YEy" firstAttribute="centerX" secondItem="TES-0Y-Wfa" secondAttribute="centerX" id="zn2-zf-8Kf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="z9h-q6-Chn"/>
+                    </view>
+                    <size key="freeformSize" width="728" height="376"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0IM-jH-YHU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8221" y="20271"/>
+        </scene>
+        <!--p31UI View-->
+        <scene sceneID="YrH-Fk-jkH">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p3_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="n7N-j0-6mj" customClass="d5_p3_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RzA-AV-QFV">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J77-cy-Ju6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7623" y="20299"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ywn-lA-JOT">
@@ -6019,10 +5973,10 @@
             </objects>
             <point key="canvasLocation" x="-2608" y="7043"/>
         </scene>
-        <!--p54UI View-->
+        <!--Door1 Animation-->
         <scene sceneID="L83-x3-v6n">
             <objects>
-                <navigationController storyboardIdentifier="d1_p5_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kVI-oO-rwu" customClass="d1_p5_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Door1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kVI-oO-rwu" customClass="Door1_Animation" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TOj-YY-r0b">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -6072,10 +6026,10 @@
             </objects>
             <point key="canvasLocation" x="-2607" y="6275"/>
         </scene>
-        <!--View Controller-->
+        <!--Door1 Player-->
         <scene sceneID="O1x-ys-mGx">
             <objects>
-                <viewController storyboardIdentifier="d1_p5_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Cix-5Z-bax" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Door1_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Cix-5Z-bax" customClass="Door1_Player" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6F2-0e-mDQ">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6180,10 +6134,10 @@
             </objects>
             <point key="canvasLocation" x="4625" y="7099"/>
         </scene>
-        <!--p91UI View-->
+        <!--p92UI View-->
         <scene sceneID="fSv-f6-l3M">
             <objects>
-                <navigationController storyboardIdentifier="d4_p9_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L7O-xT-DB8" customClass="d4_p9_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d4_p9_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L7O-xT-DB8" customClass="d4_p9_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yFu-an-q4a">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -6479,62 +6433,265 @@
             </objects>
             <point key="canvasLocation" x="7623" y="19509"/>
         </scene>
+        <!--p32UI View-->
+        <scene sceneID="co2-xg-aZZ">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p3_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="674-UP-pNF" customClass="d5_p3_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mcm-Hl-JSt">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LVv-rf-Kki" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7623" y="21019"/>
+        </scene>
+        <!--p33UI View-->
+        <scene sceneID="BeZ-10-0m3">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p3_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="j1g-or-whA" customClass="d5_p3_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1Pf-KY-aRg">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eGu-AK-MCG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7621" y="21757"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8WB-YV-I5v">
+            <objects>
+                <navigationController id="baR-EZ-r2e" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Z8a-3k-2Vc">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m87-5y-bjJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7619" y="22532"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IGn-fO-gCt">
+            <objects>
+                <viewController storyboardIdentifier="d5_p3_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T08-jb-JVT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ufM-jg-EDM">
+                        <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Final image" translatesAutoresizingMaskIntoConstraints="NO" id="IVS-J8-7EL">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part3p2_4" translatesAutoresizingMaskIntoConstraints="NO" id="ICL-Mp-bpn">
+                                <rect key="frame" x="218.33333333333334" y="131.66666666666669" width="291.33333333333326" height="225.66666666666669"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ICL-Mp-bpn" firstAttribute="centerX" secondItem="ufM-jg-EDM" secondAttribute="centerX" id="2OC-MR-Kr7"/>
+                            <constraint firstItem="IVS-J8-7EL" firstAttribute="width" secondItem="ufM-jg-EDM" secondAttribute="width" id="OKj-3Q-cAA"/>
+                            <constraint firstItem="ICL-Mp-bpn" firstAttribute="width" secondItem="ufM-jg-EDM" secondAttribute="width" multiplier="0.4" id="SZz-4F-kIE"/>
+                            <constraint firstItem="IVS-J8-7EL" firstAttribute="centerY" secondItem="ufM-jg-EDM" secondAttribute="centerY" id="SfZ-1e-Aoq"/>
+                            <constraint firstItem="ICL-Mp-bpn" firstAttribute="centerY" secondItem="ufM-jg-EDM" secondAttribute="centerY" multiplier="1.3" id="V2U-qx-GGC"/>
+                            <constraint firstItem="IVS-J8-7EL" firstAttribute="height" secondItem="ufM-jg-EDM" secondAttribute="height" id="Vva-QQ-Y3Q"/>
+                            <constraint firstItem="ICL-Mp-bpn" firstAttribute="height" secondItem="ufM-jg-EDM" secondAttribute="height" multiplier="0.6" id="fuj-Xq-Qi0"/>
+                            <constraint firstItem="IVS-J8-7EL" firstAttribute="centerX" secondItem="ufM-jg-EDM" secondAttribute="centerX" id="suR-gJ-ejM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dLL-qf-fjU"/>
+                    </view>
+                    <size key="freeformSize" width="728" height="376"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SWh-nw-nZJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8219" y="20990"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ObR-7U-a2J">
+            <objects>
+                <viewController storyboardIdentifier="d5_p3_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="WFy-bT-9ok" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZIZ-3p-hPy">
+                        <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Final image" translatesAutoresizingMaskIntoConstraints="NO" id="wQ9-Oo-Hev">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Part3p2_5" translatesAutoresizingMaskIntoConstraints="NO" id="I7H-Up-7ym">
+                                <rect key="frame" x="189.33333333333334" y="75.333333333333329" width="436.66666666666663" height="225.33333333333337"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="I7H-Up-7ym" firstAttribute="height" secondItem="ZIZ-3p-hPy" secondAttribute="height" multiplier="0.6" id="46d-HN-ZOF"/>
+                            <constraint firstItem="wQ9-Oo-Hev" firstAttribute="centerX" secondItem="ZIZ-3p-hPy" secondAttribute="centerX" id="Ej6-Lq-V2G"/>
+                            <constraint firstItem="wQ9-Oo-Hev" firstAttribute="centerY" secondItem="ZIZ-3p-hPy" secondAttribute="centerY" id="GLb-j3-ngw"/>
+                            <constraint firstItem="wQ9-Oo-Hev" firstAttribute="height" secondItem="ZIZ-3p-hPy" secondAttribute="height" id="GpW-UP-KrB"/>
+                            <constraint firstItem="I7H-Up-7ym" firstAttribute="centerY" secondItem="ZIZ-3p-hPy" secondAttribute="centerY" id="Kr8-l3-dqO"/>
+                            <constraint firstItem="wQ9-Oo-Hev" firstAttribute="width" secondItem="ZIZ-3p-hPy" secondAttribute="width" id="fYN-7d-rSe"/>
+                            <constraint firstItem="I7H-Up-7ym" firstAttribute="width" secondItem="ZIZ-3p-hPy" secondAttribute="width" multiplier="0.6" id="i8g-4B-d7c"/>
+                            <constraint firstItem="I7H-Up-7ym" firstAttribute="centerX" secondItem="ZIZ-3p-hPy" secondAttribute="centerX" multiplier="1.12" id="l0c-su-XKt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OYo-9B-k8m"/>
+                    </view>
+                    <size key="freeformSize" width="728" height="376"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VUu-cR-edm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8219" y="21728"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uOl-kY-i0V">
+            <objects>
+                <viewController id="g0l-1A-Tef" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="apd-w4-umh">
+                        <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="jmU-mn-8a4"/>
+                    </view>
+                    <size key="freeformSize" width="728" height="376"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IZf-Dt-egM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8219" y="22503"/>
+        </scene>
+        <!--View-->
+        <scene sceneID="vFm-BI-Hw4">
+            <objects>
+                <navigationController storyboardIdentifier="AR_5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YxQ-Yu-bao" customClass="AR_5_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8rJ-SO-VAS">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bqk-3k-wHv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7615" y="23358"/>
+        </scene>
+        <!--Title Screen-->
+        <scene sceneID="qEw-ES-hSD">
+            <objects>
+                <navigationController storyboardIdentifier="TitleScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JIg-UU-KoO" customClass="TitleScreen" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8sv-Cc-7Nf">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hph-gf-vre" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3164" y="-7504"/>
+        </scene>
+        <!--Alone DoorUI View-->
+        <scene sceneID="lKz-we-XUn">
+            <objects>
+                <navigationController storyboardIdentifier="AloneDoor" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6If-gd-Tta" customClass="AloneDoor_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PbK-c9-W7F">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Nq-1D-PZE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3172" y="-8265"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lCR-7j-axa">
+            <objects>
+                <viewController storyboardIdentifier="AloneDoor_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="r7V-SD-Qbo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bno-iR-fPV">
+                        <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Door Day 1" translatesAutoresizingMaskIntoConstraints="NO" id="3Zr-C0-Gwe">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="3Zr-C0-Gwe" firstAttribute="height" secondItem="bno-iR-fPV" secondAttribute="height" id="UkX-8T-Xsq"/>
+                            <constraint firstItem="3Zr-C0-Gwe" firstAttribute="centerX" secondItem="bno-iR-fPV" secondAttribute="centerX" id="qQ0-h9-Hxe"/>
+                            <constraint firstItem="3Zr-C0-Gwe" firstAttribute="centerY" secondItem="bno-iR-fPV" secondAttribute="centerY" id="ylu-Pk-nRx"/>
+                            <constraint firstItem="3Zr-C0-Gwe" firstAttribute="width" secondItem="bno-iR-fPV" secondAttribute="width" id="zng-gd-MV4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Hu8-Ws-NE9"/>
+                    </view>
+                    <size key="freeformSize" width="728" height="376"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wUP-bK-7GJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2569" y="-8294"/>
+        </scene>
+        <!--FinalUI View Controller-->
+        <scene sceneID="vc7-4E-TFb">
+            <objects>
+                <viewController storyboardIdentifier="AR_Final" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xdy-bV-Rqg" customClass="AR_Final_UIViewController" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nkv-aL-IX4">
+                        <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D2B-l7-pX1">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="D2B-l7-pX1" firstAttribute="width" secondItem="nkv-aL-IX4" secondAttribute="width" id="3oQ-ID-utf"/>
+                            <constraint firstItem="D2B-l7-pX1" firstAttribute="centerY" secondItem="nkv-aL-IX4" secondAttribute="centerY" id="eW4-PQ-iST"/>
+                            <constraint firstItem="D2B-l7-pX1" firstAttribute="centerX" secondItem="nkv-aL-IX4" secondAttribute="centerX" id="kV2-gA-Nic"/>
+                            <constraint firstItem="D2B-l7-pX1" firstAttribute="height" secondItem="nkv-aL-IX4" secondAttribute="height" id="ugb-pV-ohX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QRy-zP-hlf"/>
+                    </view>
+                    <size key="freeformSize" width="728" height="376"/>
+                    <connections>
+                        <outlet property="ARFinal" destination="D2B-l7-pX1" id="ze1-hC-aa4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T8q-sg-0uq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8219" y="23329"/>
+        </scene>
     </scenes>
     <resources>
         <image name="19_3 but brigher" width="2688" height="1242"/>
         <image name="Combined p6_2" width="2688" height="1242"/>
-        <image name="Combined p6_3" width="2688" height="1242"/>
         <image name="Couch" width="2688" height="1500"/>
         <image name="Couch to Left" width="2688" height="1242"/>
-        <image name="Couch to Left notification" width="2688" height="1242"/>
         <image name="D2p15_3" width="2688" height="1242"/>
         <image name="D3P16_3" width="2688" height="1242"/>
-        <image name="D5p14_3" width="2688" height="1242"/>
-        <image name="D5p16_4 combined" width="2688" height="1242"/>
         <image name="Day1" width="2688" height="1242"/>
         <image name="Day2" width="2688" height="1242"/>
-        <image name="Day2_P12_3" width="2688" height="1242"/>
         <image name="Day3" width="2688" height="1242"/>
         <image name="Day4" width="2688" height="1242"/>
         <image name="Day5" width="2688" height="1242"/>
         <image name="Detailed Couch" width="2688" height="1242"/>
         <image name="Detailed Couch Closeup" width="2688" height="1242"/>
+        <image name="Final image" width="2688" height="1242"/>
+        <image name="Gray filter at 40%" width="2688" height="1242"/>
+        <image name="Gray filter at 60%" width="2688" height="1242"/>
+        <image name="Gray filter at 80%" width="2688" height="1242"/>
+        <image name="Gray filter at 90%" width="2688" height="1242"/>
         <image name="Kitchen extended" width="2688" height="1500"/>
-        <image name="Kitchen p15_1" width="2688" height="1242"/>
         <image name="Kitchen with Boxes Extended" width="2688" height="1500"/>
         <image name="Long Kitchen" width="2688" height="1242"/>
-        <image name="Long Kitchen 2" width="2688" height="1242"/>
         <image name="Long Room" width="2688" height="1242"/>
         <image name="Main Door Day 1" width="2688" height="1242"/>
         <image name="Main Door Day 2" width="2688" height="1242"/>
         <image name="Main Door Day 3" width="2688" height="1242"/>
-        <image name="Main Door Day 4" width="2688" height="1242"/>
+        <image name="Main Door Day 5" width="2688" height="1242"/>
         <image name="OfficialTitleScreen" width="3248" height="1500"/>
-        <image name="Page2p13_2" width="2688" height="1242"/>
-        <image name="Page2p14_2" width="384" height="1057"/>
-        <image name="Page2p14_3" width="446" height="413"/>
-        <image name="Page2p14_4" width="754" height="1008"/>
-        <image name="Page2p15_1" width="1566" height="1180"/>
         <image name="Page2p15_3and4" width="476" height="1078"/>
-        <image name="Page2p15_3and4-1" width="476" height="1078"/>
         <image name="Part2p10_1figure" width="462" height="978"/>
-        <image name="Part2p10_2figure" width="522" height="1071"/>
         <image name="Part2p10_3figure1" width="558" height="1062"/>
-        <image name="Part2p10_3figure2" width="558" height="1062"/>
         <image name="Part2p10_3figure3" width="558" height="1062"/>
         <image name="Part2p10_3figure4" width="558" height="1062"/>
-        <image name="Part2p10_4" width="555" height="1050"/>
         <image name="Part2p20_2" width="1462" height="896"/>
-        <image name="Part2p4_4" width="2688" height="1242"/>
         <image name="Part2p8_3figure1" width="544" height="1076"/>
         <image name="Part2p8_3figure2" width="544" height="1076"/>
         <image name="Part2p8_3figure3" width="544" height="1076"/>
         <image name="Part2p8_3figure4" width="544" height="1076"/>
         <image name="Part2p8_4figure" width="546" height="452"/>
-        <image name="Part2p9_1figure" width="428" height="416"/>
-        <image name="Part2p9_2figure" width="426" height="396"/>
-        <image name="Part2p9_3figure" width="525" height="1063"/>
-        <image name="Part2p9_4figure" width="462" height="978"/>
         <image name="Part3p1_1" width="2688" height="1242"/>
         <image name="Part3p1_2" width="2688" height="1242"/>
         <image name="Part3p1_3" width="2688" height="1242"/>
@@ -6545,54 +6702,67 @@
         <image name="Part3p2_2_3" width="2688" height="1242"/>
         <image name="Part3p2_2_4" width="2688" height="1242"/>
         <image name="Part3p2_2_5" width="2688" height="1242"/>
-        <image name="Peephole" width="2688" height="1242"/>
-        <image name="Peephole Face" width="2688" height="1242"/>
-        <image name="Peephole with Boxes" width="2688" height="1242"/>
-        <image name="Peephole with Person" width="2688" height="1242"/>
-        <image name="Picture on Table" width="2688" height="1242"/>
+        <image name="Part3p2_4" width="600" height="1185"/>
+        <image name="Part3p2_5" width="2688" height="1242"/>
+        <image name="Peephole Face-1" width="2688" height="1242"/>
+        <image name="Peephole with Boxes-1" width="2688" height="1242"/>
+        <image name="Peephole with Person-1" width="2688" height="1242"/>
+        <image name="Peephole-1" width="2688" height="1242"/>
         <image name="Television Cracked Screen" width="2688" height="1242"/>
-        <image name="Television Day 5" width="2688" height="1242"/>
-        <image name="Television Red Circle Day 4" width="2688" height="1242"/>
         <image name="Television Turning Off" width="2688" height="1242"/>
         <image name="Television Turning Off-1" width="2688" height="1242"/>
         <image name="Television throw remote" width="2688" height="1242"/>
         <image name="Weird Angle door" width="2688" height="1242"/>
-        <image name="combined p3_3" width="2688" height="1242"/>
-        <image name="combined p3_3-1" width="2688" height="1242"/>
         <image name="cutoffversion" width="5000" height="1500"/>
         <image name="p10_1 Combined with Text" width="2688" height="1242"/>
         <image name="p10_2" width="2688" height="1242"/>
+        <image name="p10_2 Combined and Text" width="2688" height="1242"/>
         <image name="p10_2background" width="2688" height="1242"/>
         <image name="p10_3" width="2688" height="1242"/>
         <image name="p10_3-1" width="2688" height="1242"/>
+        <image name="p10_4 Combined and Text" width="2688" height="1242"/>
+        <image name="p10_6 Combined with Text" width="2688" height="1242"/>
         <image name="p11_1" width="2688" height="1242"/>
+        <image name="p11_1 Combined" width="2688" height="1242"/>
         <image name="p11_2" width="2688" height="1242"/>
+        <image name="p11_2 Combined with Text" width="2688" height="1242"/>
         <image name="p11_3" width="2688" height="1242"/>
         <image name="p11_4 Combined with Text" width="2688" height="1242"/>
         <image name="p12_1 Combined with Text" width="2688" height="1242"/>
-        <image name="p12_2 Combined" width="2688" height="1242"/>
+        <image name="p12_2" width="2688" height="1242"/>
+        <image name="p12_3" width="2688" height="1242"/>
         <image name="p12_3&amp;4 combined" width="2688" height="1242"/>
         <image name="p12_4 Combined" width="2688" height="1242"/>
+        <image name="p12_4 Combined with Text" width="2688" height="1242"/>
         <image name="p13_1 combined" width="2688" height="1242"/>
         <image name="p13_1.1" width="659" height="1056"/>
         <image name="p13_1.2" width="659" height="1056"/>
         <image name="p13_2" width="2688" height="1242"/>
+        <image name="p13_2 Combined with Text" width="2688" height="1242"/>
         <image name="p13_2thru4" width="637" height="1189"/>
         <image name="p13_3" width="2688" height="1242"/>
+        <image name="p13_3 Combined with Text" width="2688" height="1242"/>
+        <image name="p14_2 Combined with Text" width="2688" height="1242"/>
         <image name="p14_2figure" width="637" height="1189"/>
+        <image name="p14_3 Combined with Text" width="2688" height="1242"/>
         <image name="p14_3-1" width="2688" height="1242"/>
         <image name="p14_4" width="2688" height="1242"/>
+        <image name="p14_4 Combined with Text" width="2688" height="1242"/>
         <image name="p15_1" width="2688" height="1242"/>
+        <image name="p15_1-1" width="2688" height="1242"/>
         <image name="p15_2" width="2688" height="1242"/>
         <image name="p15_4" width="2688" height="1242"/>
-        <image name="p16_2 combined" width="2688" height="1242"/>
-        <image name="p16_3 combined-1" width="2688" height="1242"/>
+        <image name="p15_4 Combined with Text" width="2688" height="1242"/>
+        <image name="p16_1 Combined with Text" width="2688" height="1242"/>
+        <image name="p16_2 Combined with Text" width="2688" height="1242"/>
+        <image name="p16_3 Combined with Text" width="2688" height="1242"/>
         <image name="p16_4 Combined" width="2688" height="1242"/>
+        <image name="p16_4 Combined with Text" width="2688" height="1242"/>
         <image name="p16_4 Combined-2" width="2688" height="1242"/>
         <image name="p17_1 Combined with Text" width="2688" height="1242"/>
         <image name="p17_1 combined" width="2688" height="1242"/>
         <image name="p17_2" width="2688" height="1242"/>
-        <image name="p17_3 combined" width="2688" height="1242"/>
+        <image name="p17_3 Combined with Text" width="2688" height="1242"/>
         <image name="p17_4 Combined withText" width="2688" height="1242"/>
         <image name="p18_1 Combined with Text" width="2688" height="1242"/>
         <image name="p18_2 Combined with Text" width="2688" height="1242"/>
@@ -6600,6 +6770,7 @@
         <image name="p18_4 Combined with Text" width="2688" height="1242"/>
         <image name="p19_4" width="2688" height="1242"/>
         <image name="p20_1" width="1164" height="800"/>
+        <image name="p20_1-1" width="2688" height="1242"/>
         <image name="p20_4 Combined with Text" width="2688" height="1242"/>
         <image name="p20_5" width="2688" height="1242"/>
         <image name="p2_1figureLEFT" width="410" height="979"/>
@@ -6607,30 +6778,47 @@
         <image name="p2_2figure2" width="649" height="1061"/>
         <image name="p2_2figure3" width="649" height="1061"/>
         <image name="p2_2figure4" width="649" height="1061"/>
+        <image name="p2_3" width="2688" height="1242"/>
         <image name="p2_3figure" width="640" height="920"/>
+        <image name="p2_4" width="2688" height="1242"/>
         <image name="p2_4 combined" width="2688" height="1242"/>
+        <image name="p3_1" width="2688" height="1242"/>
         <image name="p3_2" width="2688" height="1242"/>
+        <image name="p3_2 Combined with Text" width="2688" height="1242"/>
         <image name="p3_3" width="2688" height="1242"/>
+        <image name="p3_3 Combined with Text" width="2688" height="1242"/>
         <image name="p3_4" width="2688" height="1242"/>
+        <image name="p3_4 Combined with Text" width="2688" height="1242"/>
         <image name="p4_1" width="2688" height="1242"/>
         <image name="p4_2" width="2688" height="1242"/>
         <image name="p4_3" width="2688" height="1242"/>
         <image name="p4_4" width="2688" height="1242"/>
+        <image name="p4_4 Combined with Text" width="2688" height="1242"/>
+        <image name="p5_1 Combined with Text-1" width="2688" height="1242"/>
         <image name="p5_1 combined with Text" width="2688" height="1242"/>
         <image name="p5_2" width="2688" height="1242"/>
+        <image name="p5_2 with Text" width="2688" height="1242"/>
+        <image name="p6_2 Combined with Text" width="2688" height="1242"/>
+        <image name="p6_3 Combined with Text" width="2688" height="1242"/>
         <image name="p6_4 Combined with Text" width="2688" height="1242"/>
+        <image name="p6_4 Combined with Text-1" width="2688" height="1242"/>
+        <image name="p7_1" width="2688" height="1242"/>
         <image name="p7_1 combined with Text" width="2688" height="1242"/>
         <image name="p7_2background" width="1907" height="830"/>
         <image name="p7_2sandwich" width="1907" height="830"/>
+        <image name="p7_3 Combined with Text" width="2688" height="1242"/>
         <image name="p7_3 combined" width="2688" height="1242"/>
-        <image name="p7_3 combined-1" width="2688" height="1242"/>
         <image name="p7_4 combined" width="2688" height="1242"/>
         <image name="p8_1 combined with Text" width="2688" height="1242"/>
         <image name="p8_1tv" width="1907" height="830"/>
         <image name="p8_2 Combined with Text" width="2688" height="1242"/>
         <image name="p8_3" width="2688" height="1242"/>
         <image name="p8_4" width="2688" height="1242"/>
+        <image name="p9_1 Combined with Text" width="2688" height="1242"/>
         <image name="p9_2 Combined with Text" width="2688" height="1242"/>
+        <image name="p9_2 Combined with Text-2" width="2688" height="1242"/>
+        <image name="p9_3 Combined with Text" width="2688" height="1242"/>
+        <image name="p9_4 Combined with Text" width="2688" height="1242"/>
         <image name="part2p20_3" width="1098" height="948"/>
         <image name="part2p20_4" width="1462" height="896"/>
     </resources>
