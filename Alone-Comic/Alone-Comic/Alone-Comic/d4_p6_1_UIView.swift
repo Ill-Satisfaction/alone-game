@@ -1,8 +1,8 @@
 //
-//  d4_p6_1_UIView.swift
+//  d5_20_1_UIView.swift
 //  Alone-Comic
 //
-//  Created by Adam Azevedo on 4/28/20.
+//  Created by Adam Azevedo on 4/29/20.
 //  Copyright © 2020 250_DreamTeam. All rights reserved.
 //
 
@@ -73,11 +73,6 @@ class d4_p6_1_UIView: UINavigationController {
     }
     
 }
-
-
-
-
-
 
 
 

@@ -1,5 +1,5 @@
 //
-//  d2_p11_1_UIView.swift
+//  d2_p15_3_UIView.swift
 //  Alone-Comic
 //
 //  Created by Adam Azevedo on 4/26/20.
@@ -13,9 +13,7 @@ class d2_p11_1_UIView: UINavigationController {
     // set all subpanels IN ORDER
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d2_p11_1_a"),
-             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d2_p11_1_b"),
-              UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d2_p11_1_c")
+            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d2_p11_1_a")
         ]
     }()
     

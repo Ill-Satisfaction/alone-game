@@ -1,5 +1,5 @@
 //
-//  d2_p10_1_UIView.swift
+//  d2_p14_3_UIView.swift
 //  Alone-Comic
 //
 //  Created by Adam Azevedo on 4/26/20.
@@ -73,5 +73,4 @@ class d2_p10_1_UIView: UINavigationController {
     }
     
 }
-
 

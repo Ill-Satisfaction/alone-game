@@ -1,8 +1,8 @@
 //
-//  d5_p15_2_UIView.swift
+//  d5_p15_3_UIView.swift
 //  Alone-Comic
 //
-//  Created by Adam Azevedo on 4/29/20.
+//  Created by Adam Azevedo on 5/4/20.
 //  Copyright © 2020 250_DreamTeam. All rights reserved.
 //
 
@@ -13,8 +13,7 @@ class d5_p15_3_UIView: UINavigationController {
     // set all subpanels IN ORDER
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p15_3_a"),
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p15_3_b")
+            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d5_p15_3_a")
         ]
     }()
     
@@ -74,4 +73,3 @@ class d5_p15_3_UIView: UINavigationController {
     }
     
 }
-

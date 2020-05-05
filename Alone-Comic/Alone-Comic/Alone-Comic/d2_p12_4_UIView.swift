@@ -1,8 +1,8 @@
 //
-//  d2_p12_4_UIView.swift
+//  d2_p18_1_UIView.swift
 //  Alone-Comic
 //
-//  Created by Adam Azevedo on 4/26/20.
+//  Created by Adam Azevedo on 4/27/20.
 //  Copyright © 2020 250_DreamTeam. All rights reserved.
 //
 
@@ -14,7 +14,7 @@ class d2_p12_4_UIView: UINavigationController {
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [
             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d2_p12_4_a")
-        ]
+    ]
     }()
     
     private var currPanel : Int = 0
@@ -73,5 +73,3 @@ class d2_p12_4_UIView: UINavigationController {
     }
     
 }
-
-

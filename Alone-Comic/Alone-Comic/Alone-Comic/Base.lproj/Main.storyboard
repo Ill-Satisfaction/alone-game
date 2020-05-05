@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="-3168" y="-8233"/>
         </scene>
-        <!--p12UI View-->
+        <!--p22UI View-->
         <scene sceneID="jUi-Jz-zrw">
             <objects>
-                <navigationController storyboardIdentifier="d1_p2_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SVm-Wk-eDo" customClass="d1_p1_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p2_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SVm-Wk-eDo" customClass="d1_p2_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hwq-ES-fh3">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -95,7 +95,7 @@
         <!--d1_p1_2_a-->
         <scene sceneID="YUE-nT-Q7b">
             <objects>
-                <viewController storyboardIdentifier="d1_p2_2_a" title="d1_p1_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BFz-Yf-ocP" customClass="d1_p1_2_a_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d1_p2_2_a" title="d1_p1_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BFz-Yf-ocP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X2I-B0-Hhh">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,13 +107,6 @@
                                 <rect key="frame" x="480.33333333333331" y="141.33333333333337" width="131.33333333333331" height="218.66666666666663"/>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPn-rM-BWW">
-                                <rect key="frame" x="341" y="173" width="120" height="93"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="nextButtonAction:" destination="BFz-Yf-ocP" eventType="touchUpInside" id="r2v-oS-wPc"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -121,8 +114,6 @@
                             <constraint firstItem="I4i-g8-ZRF" firstAttribute="width" secondItem="X2I-B0-Hhh" secondAttribute="width" id="Cbg-ue-JB5"/>
                             <constraint firstItem="I4i-g8-ZRF" firstAttribute="centerY" secondItem="X2I-B0-Hhh" secondAttribute="centerY" id="DS2-ND-Ira"/>
                             <constraint firstItem="I4i-g8-ZRF" firstAttribute="height" secondItem="X2I-B0-Hhh" secondAttribute="height" constant="1" id="QRC-4i-Y8Y"/>
-                            <constraint firstItem="aPn-rM-BWW" firstAttribute="centerX" secondItem="X2I-B0-Hhh" secondAttribute="centerX" id="SOt-jN-4zh"/>
-                            <constraint firstItem="aPn-rM-BWW" firstAttribute="centerY" secondItem="X2I-B0-Hhh" secondAttribute="centerY" id="SOz-0F-ozJ"/>
                             <constraint firstItem="I4i-g8-ZRF" firstAttribute="centerX" secondItem="X2I-B0-Hhh" secondAttribute="centerX" id="nE8-jV-0lr"/>
                             <constraint firstItem="tTA-Gh-blH" firstAttribute="width" secondItem="I4i-g8-ZRF" secondAttribute="width" multiplier="0.18" id="put-ni-CaE"/>
                             <constraint firstItem="tTA-Gh-blH" firstAttribute="height" secondItem="I4i-g8-ZRF" secondAttribute="height" multiplier="0.580389" id="yyO-nr-WbE"/>
@@ -132,9 +123,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="HBB-AF-P9o"/>
                     <size key="freeformSize" width="728" height="376"/>
-                    <connections>
-                        <outlet property="nextButtonOutlet" destination="aPn-rM-BWW" id="fMk-dR-npn"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nml-ZI-jLR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -304,10 +292,10 @@
             </objects>
             <point key="canvasLocation" x="-2506" y="5520"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p64UI View-->
         <scene sceneID="5Hu-tf-lsL">
             <objects>
-                <navigationController storyboardIdentifier="d1_p6_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XMw-mA-JNB" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p6_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XMw-mA-JNB" customClass="d1_p6_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1yY-UE-KLc">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -352,23 +340,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kitchen Counter Zoomed Out Extended" translatesAutoresizingMaskIntoConstraints="NO" id="bJZ-ez-BWH">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p7_1 combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="bJZ-ez-BWH">
                                 <rect key="frame" x="18.333333333333314" y="0.0" width="691.33333333333348" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p7_1 combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="6eT-dH-Tqg">
-                                <rect key="frame" x="11" y="-17" width="698.66666666666663" height="353.66666666666669"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="bJZ-ez-BWH" firstAttribute="centerX" secondItem="i1t-2I-36W" secondAttribute="centerX" id="5VG-bC-Qee"/>
                             <constraint firstItem="bJZ-ez-BWH" firstAttribute="centerY" secondItem="i1t-2I-36W" secondAttribute="centerY" id="Fhc-6m-ksg"/>
-                            <constraint firstItem="6eT-dH-Tqg" firstAttribute="centerX" secondItem="i1t-2I-36W" secondAttribute="centerX" multiplier="0.99" id="Frk-1b-If1"/>
                             <constraint firstItem="bJZ-ez-BWH" firstAttribute="height" secondItem="i1t-2I-36W" secondAttribute="height" id="IJZ-6B-oCf"/>
-                            <constraint firstItem="6eT-dH-Tqg" firstAttribute="width" secondItem="i1t-2I-36W" secondAttribute="width" multiplier="0.96" id="Oim-JP-5fx"/>
                             <constraint firstItem="bJZ-ez-BWH" firstAttribute="width" secondItem="i1t-2I-36W" secondAttribute="width" multiplier="0.95" id="ZM8-up-vsE"/>
-                            <constraint firstItem="6eT-dH-Tqg" firstAttribute="height" secondItem="i1t-2I-36W" secondAttribute="height" multiplier="0.94" id="wJe-Rx-6eP"/>
-                            <constraint firstItem="6eT-dH-Tqg" firstAttribute="centerY" secondItem="i1t-2I-36W" secondAttribute="centerY" multiplier="0.85" id="xyg-7M-Bld"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bI8-Cg-CAT"/>
                     </view>
@@ -503,7 +484,7 @@
         <!--View Controller-->
         <scene sceneID="b7T-wP-DDP">
             <objects>
-                <viewController storyboardIdentifier="d1_p7_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aPX-c5-Jci" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d1_p8_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aPX-c5-Jci" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UCy-XZ-Rjx">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1029,7 +1010,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p14_4 Combined" translatesAutoresizingMaskIntoConstraints="NO" id="YiT-VC-tVq">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p14_4" translatesAutoresizingMaskIntoConstraints="NO" id="YiT-VC-tVq">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -1164,7 +1145,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p10_2" translatesAutoresizingMaskIntoConstraints="NO" id="0Ft-JF-J7s">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="D3P16_3" translatesAutoresizingMaskIntoConstraints="NO" id="0Ft-JF-J7s">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -1218,7 +1199,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p17_1n2" translatesAutoresizingMaskIntoConstraints="NO" id="AAs-HJ-IXa">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p17_1 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="AAs-HJ-IXa">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -1240,12 +1221,12 @@
         <!--View Controller-->
         <scene sceneID="YL0-41-9Lh">
             <objects>
-                <viewController storyboardIdentifier="d3_p17_1_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aMk-nd-kjQ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d3_p17_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aMk-nd-kjQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WtW-Lc-GCu">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p17_1n2" translatesAutoresizingMaskIntoConstraints="NO" id="lvy-YQ-lXE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p17_2" translatesAutoresizingMaskIntoConstraints="NO" id="lvy-YQ-lXE">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -1272,7 +1253,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p10_2" translatesAutoresizingMaskIntoConstraints="NO" id="Foc-yw-sh4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p17_3 combined" translatesAutoresizingMaskIntoConstraints="NO" id="Foc-yw-sh4">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -1299,7 +1280,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Television Red Circle Day 3" translatesAutoresizingMaskIntoConstraints="NO" id="Vpg-n9-AXz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p17_4 Combined withText" translatesAutoresizingMaskIntoConstraints="NO" id="Vpg-n9-AXz">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -1339,7 +1320,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p18_1 Combined" translatesAutoresizingMaskIntoConstraints="NO" id="M3B-As-9YN">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p18_1 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="M3B-As-9YN">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -1366,7 +1347,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p10_2" translatesAutoresizingMaskIntoConstraints="NO" id="jvW-MF-cPG">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p18_2 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="jvW-MF-cPG">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                             </imageView>
                         </subviews>
@@ -1393,23 +1374,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Weird Angle door P18_3" translatesAutoresizingMaskIntoConstraints="NO" id="TXo-cc-fi9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p18_3" translatesAutoresizingMaskIntoConstraints="NO" id="TXo-cc-fi9">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p18_3figure" translatesAutoresizingMaskIntoConstraints="NO" id="OiC-i7-Y8q">
-                                <rect key="frame" x="-240.33333333333334" y="94" width="728" height="263.33333333333331"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="OiC-i7-Y8q" firstAttribute="centerY" secondItem="I4g-mb-P6n" secondAttribute="centerY" multiplier="1.2" id="2eX-jM-ET7"/>
-                            <constraint firstItem="OiC-i7-Y8q" firstAttribute="height" secondItem="I4g-mb-P6n" secondAttribute="height" multiplier="0.7" id="3TM-fY-nJ1"/>
                             <constraint firstItem="TXo-cc-fi9" firstAttribute="width" secondItem="I4g-mb-P6n" secondAttribute="width" id="CO9-6q-8Qz"/>
                             <constraint firstItem="TXo-cc-fi9" firstAttribute="height" secondItem="I4g-mb-P6n" secondAttribute="height" id="Jb5-FN-1qI"/>
                             <constraint firstItem="TXo-cc-fi9" firstAttribute="centerX" secondItem="I4g-mb-P6n" secondAttribute="centerX" id="Nqr-7q-efS"/>
                             <constraint firstItem="TXo-cc-fi9" firstAttribute="centerY" secondItem="I4g-mb-P6n" secondAttribute="centerY" id="PPv-ly-hnz"/>
-                            <constraint firstItem="OiC-i7-Y8q" firstAttribute="centerX" secondItem="I4g-mb-P6n" secondAttribute="centerX" multiplier="0.34" id="rnW-dx-ilr"/>
-                            <constraint firstItem="OiC-i7-Y8q" firstAttribute="width" secondItem="I4g-mb-P6n" secondAttribute="width" id="tgG-9O-vdK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uu5-K4-2Fb"/>
                     </view>
@@ -1427,22 +1401,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Kitchen extended-1" translatesAutoresizingMaskIntoConstraints="NO" id="4HY-7C-YF4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p18_4 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="4HY-7C-YF4">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p18_4figure" translatesAutoresizingMaskIntoConstraints="NO" id="x1j-3s-XRt">
-                                <rect key="frame" x="-72.666666666666686" y="128" width="728" height="225.33333333333337"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="x1j-3s-XRt" firstAttribute="centerX" secondItem="Inx-gu-84J" secondAttribute="centerX" multiplier="0.8" id="3E4-au-DCo"/>
                             <constraint firstItem="4HY-7C-YF4" firstAttribute="height" secondItem="Inx-gu-84J" secondAttribute="height" id="FmX-gC-nmx"/>
-                            <constraint firstItem="x1j-3s-XRt" firstAttribute="centerY" secondItem="Inx-gu-84J" secondAttribute="centerY" multiplier="1.28" id="Hqw-L8-eta"/>
-                            <constraint firstItem="x1j-3s-XRt" firstAttribute="width" secondItem="Inx-gu-84J" secondAttribute="width" id="NDj-d6-Zx0"/>
                             <constraint firstItem="4HY-7C-YF4" firstAttribute="centerX" secondItem="Inx-gu-84J" secondAttribute="centerX" id="dWa-Rp-PCN"/>
                             <constraint firstItem="4HY-7C-YF4" firstAttribute="centerY" secondItem="Inx-gu-84J" secondAttribute="centerY" id="lhi-8u-asd"/>
-                            <constraint firstItem="x1j-3s-XRt" firstAttribute="height" secondItem="Inx-gu-84J" secondAttribute="height" multiplier="0.6" id="qWr-9Q-zGO"/>
                             <constraint firstItem="4HY-7C-YF4" firstAttribute="width" secondItem="Inx-gu-84J" secondAttribute="width" id="tD5-3x-aPw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="47i-FB-meK"/>
@@ -1907,10 +1874,10 @@
             </objects>
             <point key="canvasLocation" x="-735" y="-3706"/>
         </scene>
-        <!--p104UI View-->
+        <!--p103UI View-->
         <scene sceneID="oP4-O2-Mgg">
             <objects>
-                <navigationController storyboardIdentifier="d2_p10_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2pN-ZB-CJ4" customClass="d2_p10_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d2_p10_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2pN-ZB-CJ4" customClass="d2_p10_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AfS-yQ-0NJ">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1920,10 +1887,10 @@
             </objects>
             <point key="canvasLocation" x="-729" y="-4435"/>
         </scene>
-        <!--p103UI View-->
+        <!--p102UI View-->
         <scene sceneID="YRg-bV-x0Z">
             <objects>
-                <navigationController storyboardIdentifier="d2_p10_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="G5k-X7-yZz" customClass="d2_p10_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d2_p10_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="G5k-X7-yZz" customClass="d2_p10_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZO9-5m-59E">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1946,10 +1913,10 @@
             </objects>
             <point key="canvasLocation" x="-725" y="-5971"/>
         </scene>
-        <!--p82UI View-->
+        <!--p92UI View-->
         <scene sceneID="L2R-qo-I84">
             <objects>
-                <navigationController storyboardIdentifier="d1_p9_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dao-Db-gBS" customClass="d1_p8_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p9_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dao-Db-gBS" customClass="d1_p9_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="b6p-4w-mTA">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1959,10 +1926,10 @@
             </objects>
             <point key="canvasLocation" x="-3179" y="16378"/>
         </scene>
-        <!--p81UI View-->
+        <!--p91UI View-->
         <scene sceneID="rx7-qS-Okl">
             <objects>
-                <navigationController storyboardIdentifier="d1_p9_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="D7a-Cd-1DT" customClass="d1_p8_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p9_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="D7a-Cd-1DT" customClass="d1_p9_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WwT-RQ-xCp">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1999,10 +1966,10 @@
             </objects>
             <point key="canvasLocation" x="-2515" y="14775"/>
         </scene>
-        <!--p73UI View-->
+        <!--p83UI View-->
         <scene sceneID="Sdq-q5-uAB">
             <objects>
-                <navigationController storyboardIdentifier="d1_p8_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VxV-NE-6fA" customClass="d1_p7_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p8_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VxV-NE-6fA" customClass="d1_p8_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2QD-Uc-SQF">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2012,10 +1979,10 @@
             </objects>
             <point key="canvasLocation" x="-3181" y="14026"/>
         </scene>
-        <!--p72UI View-->
+        <!--p82UI View-->
         <scene sceneID="Dgz-Pp-or1">
             <objects>
-                <navigationController storyboardIdentifier="d1_p8_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OZ9-Kl-csu" customClass="d1_p7_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p8_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OZ9-Kl-csu" customClass="d1_p8_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="loT-ub-FM7">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2025,10 +1992,10 @@
             </objects>
             <point key="canvasLocation" x="-3181" y="13249"/>
         </scene>
-        <!--p71UI View-->
+        <!--p81UI View-->
         <scene sceneID="g8C-Hy-eNB">
             <objects>
-                <navigationController storyboardIdentifier="d1_p8_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qUc-z8-fEq" customClass="d1_p7_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p8_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qUc-z8-fEq" customClass="d1_p8_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dVz-Bw-NYc">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2038,10 +2005,10 @@
             </objects>
             <point key="canvasLocation" x="-3181" y="12394"/>
         </scene>
-        <!--p64UI View-->
+        <!--p74UI View-->
         <scene sceneID="ZJ1-72-6He">
             <objects>
-                <navigationController storyboardIdentifier="d1_p7_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JtA-Qo-oo4" customClass="d1_p6_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p7_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JtA-Qo-oo4" customClass="d1_p7_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hfo-9N-cm7">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2051,10 +2018,10 @@
             </objects>
             <point key="canvasLocation" x="-3178" y="11668"/>
         </scene>
-        <!--p63UI View-->
+        <!--p73UI View-->
         <scene sceneID="elH-ju-gxx">
             <objects>
-                <navigationController storyboardIdentifier="d1_p7_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6Qk-hD-VKx" customClass="d1_p6_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p7_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6Qk-hD-VKx" customClass="d1_p7_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DDR-wG-0jc">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2064,10 +2031,10 @@
             </objects>
             <point key="canvasLocation" x="-3178" y="10930"/>
         </scene>
-        <!--p62UI View-->
+        <!--p72UI View-->
         <scene sceneID="Sds-6d-6Lt">
             <objects>
-                <navigationController storyboardIdentifier="d1_p7_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cpu-rM-SCa" customClass="d1_p6_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p7_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cpu-rM-SCa" customClass="d1_p7_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dsv-Ri-6yu">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2077,10 +2044,10 @@
             </objects>
             <point key="canvasLocation" x="-3178" y="10149"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p53UI View-->
         <scene sceneID="rk4-Bz-Gbr">
             <objects>
-                <navigationController storyboardIdentifier="d1_p5_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ULp-8E-NeT" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p5_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ULp-8E-NeT" customClass="d1_p5_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2cc-He-1zX">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2090,10 +2057,10 @@
             </objects>
             <point key="canvasLocation" x="-3173" y="7072"/>
         </scene>
-        <!--p61UI View-->
+        <!--p71UI View-->
         <scene sceneID="gmG-aH-CCb">
             <objects>
-                <navigationController storyboardIdentifier="d1_p7_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HCh-d6-CcO" customClass="d1_p6_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p7_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HCh-d6-CcO" customClass="d1_p7_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P7S-bh-ys4">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2116,10 +2083,10 @@
             </objects>
             <point key="canvasLocation" x="-3172" y="5548"/>
         </scene>
-        <!--p31UI View-->
+        <!--p41UI View-->
         <scene sceneID="Mba-3r-2cr">
             <objects>
-                <navigationController storyboardIdentifier="d1_p4_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aEj-lB-Vem" customClass="d1_p3_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p4_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aEj-lB-Vem" customClass="d1_p4_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wjW-g8-H0S">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2291,10 +2258,10 @@
             </objects>
             <point key="canvasLocation" x="-2570" y="4762"/>
         </scene>
-        <!--p21UI View-->
+        <!--p31UI View-->
         <scene sceneID="l2D-4S-K4c">
             <objects>
-                <navigationController storyboardIdentifier="d1_p3_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="H0v-nX-sj6" customClass="d1_p2_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p3_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="H0v-nX-sj6" customClass="d1_p3_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ejF-cX-tUV">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2304,10 +2271,10 @@
             </objects>
             <point key="canvasLocation" x="-3164" y="-404"/>
         </scene>
-        <!--p14UI View-->
+        <!--p27UI View-->
         <scene sceneID="mD7-rQ-hKR">
             <objects>
-                <navigationController storyboardIdentifier="d1_p2_7" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nhU-yY-6Mt" customClass="d1_p1_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p2_7" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nhU-yY-6Mt" customClass="d1_p2_7_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1cC-Z1-AJh">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2317,10 +2284,10 @@
             </objects>
             <point key="canvasLocation" x="-3164" y="-1170"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p23UI View-->
         <scene sceneID="WVX-8V-cvf">
             <objects>
-                <navigationController storyboardIdentifier="d1_p2_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="e9i-fv-4sP" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p2_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="e9i-fv-4sP" customClass="d1_p2_3UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oTT-U0-aiS">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2400,10 +2367,10 @@
             </objects>
             <point key="canvasLocation" x="-2215" y="-2935"/>
         </scene>
-        <!--p13UI View-->
+        <!--p26UI View-->
         <scene sceneID="kBk-Iq-g7k">
             <objects>
-                <navigationController storyboardIdentifier="d1_p2_6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="h5q-UJ-rko" customClass="d1_p1_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p2_6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="h5q-UJ-rko" customClass="d1_p2_6_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="q3D-hR-cGE">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2487,22 +2454,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jump back from door" translatesAutoresizingMaskIntoConstraints="NO" id="1Eb-1r-SB6">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="19_3 but brigher" translatesAutoresizingMaskIntoConstraints="NO" id="1Eb-1r-SB6">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p19_3figure-1" translatesAutoresizingMaskIntoConstraints="NO" id="efA-f5-H1N">
-                                <rect key="frame" x="400.33333333333326" y="169.33333333333337" width="364" height="188"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="1Eb-1r-SB6" firstAttribute="width" secondItem="Dfu-5d-gB8" secondAttribute="width" id="HTZ-r7-GbU"/>
-                            <constraint firstItem="efA-f5-H1N" firstAttribute="height" secondItem="Dfu-5d-gB8" secondAttribute="height" multiplier="0.5" id="JmY-ip-Mqx"/>
                             <constraint firstItem="1Eb-1r-SB6" firstAttribute="height" secondItem="Dfu-5d-gB8" secondAttribute="height" id="KfG-eR-hVS"/>
                             <constraint firstItem="1Eb-1r-SB6" firstAttribute="centerY" secondItem="Dfu-5d-gB8" secondAttribute="centerY" id="UkL-Ma-rla"/>
-                            <constraint firstItem="efA-f5-H1N" firstAttribute="centerX" secondItem="Dfu-5d-gB8" secondAttribute="centerX" multiplier="1.6" id="Wpo-mK-FJf"/>
-                            <constraint firstItem="efA-f5-H1N" firstAttribute="width" secondItem="Dfu-5d-gB8" secondAttribute="width" multiplier="0.5" id="aIA-3z-nNH"/>
-                            <constraint firstItem="efA-f5-H1N" firstAttribute="centerY" secondItem="Dfu-5d-gB8" secondAttribute="centerY" multiplier="1.4" id="jCF-xg-Mgz"/>
                             <constraint firstItem="1Eb-1r-SB6" firstAttribute="centerX" secondItem="Dfu-5d-gB8" secondAttribute="centerX" id="xg1-Vx-Rqf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bex-7r-CcA"/>
@@ -2521,11 +2481,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Curved room affect" translatesAutoresizingMaskIntoConstraints="NO" id="Z8X-fQ-oDg">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p19_4" translatesAutoresizingMaskIntoConstraints="NO" id="Z8X-fQ-oDg">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p19_4figure" translatesAutoresizingMaskIntoConstraints="NO" id="eLy-6R-KrU">
-                                <rect key="frame" x="218.33333333333334" y="112.66666666666667" width="291.33333333333326" height="244.66666666666663"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -2534,10 +2491,6 @@
                             <constraint firstItem="Z8X-fQ-oDg" firstAttribute="centerX" secondItem="EKJ-bz-P2T" secondAttribute="centerX" id="LnG-kL-3ki"/>
                             <constraint firstItem="Z8X-fQ-oDg" firstAttribute="centerY" secondItem="EKJ-bz-P2T" secondAttribute="centerY" id="bPF-pY-rVd"/>
                             <constraint firstItem="Z8X-fQ-oDg" firstAttribute="height" secondItem="EKJ-bz-P2T" secondAttribute="height" id="ccL-s9-4sF"/>
-                            <constraint firstItem="eLy-6R-KrU" firstAttribute="centerY" secondItem="EKJ-bz-P2T" secondAttribute="centerY" multiplier="1.25" id="kyY-20-W6N"/>
-                            <constraint firstItem="eLy-6R-KrU" firstAttribute="height" secondItem="EKJ-bz-P2T" secondAttribute="height" multiplier="0.65" id="loN-yt-iLW"/>
-                            <constraint firstItem="eLy-6R-KrU" firstAttribute="centerX" secondItem="EKJ-bz-P2T" secondAttribute="centerX" id="w89-4N-sHP"/>
-                            <constraint firstItem="eLy-6R-KrU" firstAttribute="width" secondItem="EKJ-bz-P2T" secondAttribute="width" multiplier="0.4" id="zHx-eD-aPC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="azf-q6-oKu"/>
                     </view>
@@ -2572,12 +2525,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oj2-fH-a5i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2721" y="5000"/>
+            <point key="canvasLocation" x="2466" y="5000"/>
         </scene>
-        <!--p21UI View-->
+        <!--p204UI View-->
         <scene sceneID="BeT-Hs-XHc">
             <objects>
-                <navigationController storyboardIdentifier="d3_p20_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="q6o-rv-M9Q" customClass="d3_p2_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d3_p20_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="q6o-rv-M9Q" customClass="d3_p20_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Pqg-1Z-wTi">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2585,7 +2538,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t8t-WJ-OUe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798" y="7272"/>
+            <point key="canvasLocation" x="1815" y="7271"/>
         </scene>
         <!--p203UI View-->
         <scene sceneID="ymR-Pg-rQd">
@@ -2598,7 +2551,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9lB-Fa-JVL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1804" y="6514"/>
+            <point key="canvasLocation" x="1821" y="6546"/>
         </scene>
         <!--p201UI View-->
         <scene sceneID="moc-S8-DeT">
@@ -2611,12 +2564,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sot-V6-EAj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1809" y="5029"/>
+            <point key="canvasLocation" x="1815" y="5028"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p202UI View-->
         <scene sceneID="ma6-lz-iDr">
             <objects>
-                <navigationController id="KI2-Hh-cmQ" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d3_p20_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KI2-Hh-cmQ" customClass="d3_p20_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wuj-Ic-VpM">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2624,12 +2577,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3og-Ws-Xmd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1807" y="5787"/>
+            <point key="canvasLocation" x="1821" y="5787"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Hqd-Ik-wXa">
             <objects>
-                <viewController storyboardIdentifier="d3_p20_1_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rSp-3n-C6x" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d3_p20_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rSp-3n-C6x" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iB7-FM-Mfg">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2651,7 +2604,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ifp-zb-wHb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2411" y="5758"/>
+            <point key="canvasLocation" x="2464" y="5758"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eRu-NZ-9xs">
@@ -2678,7 +2631,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uab-pW-zN3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2466" y="6486"/>
+            <point key="canvasLocation" x="2458" y="6484"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SB3-aU-JU5">
@@ -2688,21 +2641,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main Door Day 3" translatesAutoresizingMaskIntoConstraints="NO" id="Oen-EK-jlo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p20_4 Combined with Text" translatesAutoresizingMaskIntoConstraints="NO" id="Oen-EK-jlo">
                                 <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p20_4figure" translatesAutoresizingMaskIntoConstraints="NO" id="7JQ-yk-5dI">
-                                <rect key="frame" x="-36.333333333333343" y="122.33333333333333" width="364" height="244.33333333333337"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="7JQ-yk-5dI" firstAttribute="width" secondItem="I4t-hy-3pq" secondAttribute="width" multiplier="0.5" id="BG0-FM-gCe"/>
                             <constraint firstItem="Oen-EK-jlo" firstAttribute="centerY" secondItem="I4t-hy-3pq" secondAttribute="centerY" id="MsG-JA-lKh"/>
                             <constraint firstItem="Oen-EK-jlo" firstAttribute="height" secondItem="I4t-hy-3pq" secondAttribute="height" id="QyX-wH-9A0"/>
-                            <constraint firstItem="7JQ-yk-5dI" firstAttribute="centerX" secondItem="I4t-hy-3pq" secondAttribute="centerX" multiplier="0.4" id="g9X-qj-q6x"/>
-                            <constraint firstItem="7JQ-yk-5dI" firstAttribute="centerY" secondItem="I4t-hy-3pq" secondAttribute="centerY" multiplier="1.3" id="hHW-5w-fdW"/>
-                            <constraint firstItem="7JQ-yk-5dI" firstAttribute="height" secondItem="I4t-hy-3pq" secondAttribute="height" multiplier="0.65" id="mei-06-x6b"/>
                             <constraint firstItem="Oen-EK-jlo" firstAttribute="centerX" secondItem="I4t-hy-3pq" secondAttribute="centerX" id="qZz-Tl-Lp6"/>
                             <constraint firstItem="Oen-EK-jlo" firstAttribute="width" secondItem="I4t-hy-3pq" secondAttribute="width" id="ufT-9F-jIN"/>
                         </constraints>
@@ -2725,7 +2671,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n8h-jy-0w0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1821" y="9599"/>
+            <point key="canvasLocation" x="1821" y="10354"/>
         </scene>
         <!--p22UI View-->
         <scene sceneID="cDV-Ai-h3q">
@@ -2738,7 +2684,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D42-F2-Qxh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1821" y="8803"/>
+            <point key="canvasLocation" x="1821" y="9558"/>
         </scene>
         <!--p21UI View-->
         <scene sceneID="aph-Or-bpe">
@@ -2751,7 +2697,20 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GaP-0l-PgC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1809" y="8009"/>
+            <point key="canvasLocation" x="1809" y="8764"/>
+        </scene>
+        <!--p11UI View-->
+        <scene sceneID="Xra-JE-QRP">
+            <objects>
+                <navigationController storyboardIdentifier="d3_p1_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oGw-r1-hg7" customClass="d3_p1_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YXb-U7-RNg">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZAe-ad-dVe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1794" y="8023"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hhN-Wd-GPs">
@@ -2778,7 +2737,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tfb-06-bZv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2464" y="7980"/>
+            <point key="canvasLocation" x="2464" y="8735"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="94m-Sy-3Kd">
@@ -2805,7 +2764,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Hm-yd-8FM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2464" y="8774"/>
+            <point key="canvasLocation" x="2464" y="9529"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Y5h-Q9-kLg">
@@ -2832,7 +2791,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mzi-Q2-HFh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2571" y="9570"/>
+            <point key="canvasLocation" x="2571" y="10325"/>
         </scene>
         <!--p32UI View-->
         <scene sceneID="eWb-Or-qOr">
@@ -2845,7 +2804,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KNl-Tt-ox0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1807" y="11867"/>
+            <point key="canvasLocation" x="1807" y="12622"/>
         </scene>
         <!--p31UI View-->
         <scene sceneID="rwk-9C-Els">
@@ -2858,12 +2817,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uaB-ym-62q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1815" y="11116"/>
+            <point key="canvasLocation" x="1815" y="11871"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p24UI View-->
         <scene sceneID="PFe-UX-M1m">
             <objects>
-                <navigationController id="8km-wj-tbC" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d3_p2_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8km-wj-tbC" customClass="d3_p2_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iTT-vM-QwV">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2871,12 +2830,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qfL-Aq-4rM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1821" y="10349"/>
+            <point key="canvasLocation" x="1821" y="11103"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zRN-iY-1fm">
             <objects>
-                <viewController storyboardIdentifier="d3_p2_3_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NyS-g5-jB3" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d3_p2_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NyS-g5-jB3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u64-vD-7e2">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2898,7 +2857,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QTj-Vv-5NJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2425" y="10320"/>
+            <point key="canvasLocation" x="2425" y="11074"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xpd-4c-0To">
@@ -2925,7 +2884,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DA0-Nt-UX5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2458" y="11087"/>
+            <point key="canvasLocation" x="2458" y="11842"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="c6l-k2-bz3">
@@ -2952,12 +2911,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fiv-vB-SNQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2622" y="11838"/>
+            <point key="canvasLocation" x="2622" y="12593"/>
         </scene>
         <!--p44UI View-->
         <scene sceneID="4mF-HB-RTC">
             <objects>
-                <navigationController storyboardIdentifier="d3_p4_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9Zh-hW-9s9" customClass="d4_p4_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d4_p4_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9Zh-hW-9s9" customClass="d4_p4_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Flo-jt-WZn">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2970,7 +2929,7 @@
         <!--p42UI View-->
         <scene sceneID="p3v-lM-uBE">
             <objects>
-                <navigationController storyboardIdentifier="d3_p4_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JQb-OP-yFP" customClass="d4_p4_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d4_p4_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JQb-OP-yFP" customClass="d4_p4_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YcR-nm-CAw">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2983,7 +2942,7 @@
         <!--View Controller-->
         <scene sceneID="3Yc-oZ-21Y">
             <objects>
-                <viewController storyboardIdentifier="d3_p3_2_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yEg-ih-7xH" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d3_p3_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yEg-ih-7xH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HLl-vh-woN">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3005,12 +2964,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E2o-HR-eup" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2385" y="12587"/>
+            <point key="canvasLocation" x="2385" y="13342"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dFn-bC-T9d">
             <objects>
-                <viewController storyboardIdentifier="d3_p3_2_c" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3rP-7l-qle" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d3_p3_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3rP-7l-qle" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jsu-14-nJJ">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3032,7 +2991,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tX1-pK-Toq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2385" y="13338"/>
+            <point key="canvasLocation" x="2385" y="14093"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OzQ-1e-xwg">
@@ -3064,7 +3023,7 @@
         <!--View Controller-->
         <scene sceneID="oeX-L3-Vaz">
             <objects>
-                <viewController storyboardIdentifier="d4_p4_2_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="X9B-ye-K9F" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p4_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="X9B-ye-K9F" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BYf-dT-Aom">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3171,7 +3130,7 @@
         <!--View Controller-->
         <scene sceneID="KiR-nZ-j7r">
             <objects>
-                <viewController storyboardIdentifier="d4_p5_1_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pl5-zL-x8a" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p5_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pl5-zL-x8a" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HdY-XK-Pnu">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3198,7 +3157,7 @@
         <!--View Controller-->
         <scene sceneID="lMQ-L1-NIb">
             <objects>
-                <viewController storyboardIdentifier="d4_p5_1_c" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VAy-Pi-aMJ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p5_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VAy-Pi-aMJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uha-nH-GT8">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3345,7 +3304,7 @@
         <!--View Controller-->
         <scene sceneID="97H-vI-yfP">
             <objects>
-                <viewController storyboardIdentifier="d4_p6_2_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="paS-0K-tAH" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p6_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="paS-0K-tAH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Dg-E9-VLX">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3476,10 +3435,10 @@
             </objects>
             <point key="canvasLocation" x="5235" y="3039"/>
         </scene>
-        <!--p85UI View-->
+        <!--p87UI View-->
         <scene sceneID="gtU-2K-53j">
             <objects>
-                <navigationController storyboardIdentifier="d4_p8_5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="R1r-cE-fYX" customClass="d4_p8_5_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d4_p8_7" useStoryboardIdentifierAsRestorationIdentifier="YES" id="R1r-cE-fYX" customClass="d4_p8_7_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6GY-qy-rzD">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3489,10 +3448,10 @@
             </objects>
             <point key="canvasLocation" x="4613" y="7813"/>
         </scene>
-        <!--p81UI View-->
+        <!--p83UI View-->
         <scene sceneID="I8A-Hc-qYG">
             <objects>
-                <navigationController storyboardIdentifier="d4_p8_1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ouo-GE-9X7" customClass="d4_p8_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d4_p8_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ouo-GE-9X7" customClass="d4_p8_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OAM-l6-op8">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3505,7 +3464,7 @@
         <!--View Controller-->
         <scene sceneID="QUy-ek-ZHr">
             <objects>
-                <viewController storyboardIdentifier="d4_p7_2_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wg5-Uk-CXf" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p7_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wg5-Uk-CXf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r36-O5-hGR">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3532,7 +3491,7 @@
         <!--View Controller-->
         <scene sceneID="CuE-cc-DDa">
             <objects>
-                <viewController storyboardIdentifier="d4_p8_1_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2WQ-dP-wJL" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p8_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2WQ-dP-wJL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uqC-7X-PZE">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3566,7 +3525,7 @@
         <!--View Controller-->
         <scene sceneID="KWs-jm-pNf">
             <objects>
-                <viewController storyboardIdentifier="d4_p8_1_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mNf-wP-VYP" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p8_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mNf-wP-VYP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17h-ur-Ov1">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3600,7 +3559,7 @@
         <!--View Controller-->
         <scene sceneID="mhf-23-dj7">
             <objects>
-                <viewController storyboardIdentifier="d4_p8_1_c" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2hs-m5-qhN" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p8_5_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2hs-m5-qhN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HAV-Zs-X8o">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3634,7 +3593,7 @@
         <!--View Controller-->
         <scene sceneID="kED-AR-Ndd">
             <objects>
-                <viewController storyboardIdentifier="d4_p8_1_d" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SY1-VM-wyF" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p8_6_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SY1-VM-wyF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pme-zr-6CY">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3668,7 +3627,7 @@
         <!--View Controller-->
         <scene sceneID="INv-5H-Jsf">
             <objects>
-                <viewController storyboardIdentifier="d4_p8_5_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yu0-D6-ucq" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p8_7_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yu0-D6-ucq" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yca-ii-5ZP">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3736,7 +3695,7 @@
         <!--View Controller-->
         <scene sceneID="4Hy-p1-EWy">
             <objects>
-                <viewController storyboardIdentifier="d4_p9_1_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ipN-yH-frP" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p9_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ipN-yH-frP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OKY-fE-681">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3903,7 +3862,7 @@
         <!--View Controller-->
         <scene sceneID="VO6-In-MBY">
             <objects>
-                <viewController storyboardIdentifier="d4_p10_1_f" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Pb8-ly-RbM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p10_6_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Pb8-ly-RbM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aiT-jq-1GW">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3937,7 +3896,7 @@
         <!--View Controller-->
         <scene sceneID="wwW-rd-dGE">
             <objects>
-                <viewController storyboardIdentifier="d4_p10_1_e" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Mxy-0U-XKK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p10_5_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Mxy-0U-XKK" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rPM-fz-ZdK">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3971,7 +3930,7 @@
         <!--View Controller-->
         <scene sceneID="yfq-TZ-z4v">
             <objects>
-                <viewController storyboardIdentifier="d4_p10_1_d" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hHu-J6-HkP" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p10_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hHu-J6-HkP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="km7-CA-KFF">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4005,7 +3964,7 @@
         <!--View Controller-->
         <scene sceneID="l3L-HT-tKx">
             <objects>
-                <viewController storyboardIdentifier="d4_p10_1_c" useStoryboardIdentifierAsRestorationIdentifier="YES" id="K27-Ww-9Ec" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p10_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="K27-Ww-9Ec" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fuq-eZ-hry">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4039,7 +3998,7 @@
         <!--View Controller-->
         <scene sceneID="24u-kq-nu7">
             <objects>
-                <viewController storyboardIdentifier="d4_p10_1_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="I1A-Nw-Yc5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p10_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="I1A-Nw-Yc5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MY3-Mh-yGR">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4194,7 +4153,7 @@
         <!--View Controller-->
         <scene sceneID="V3B-G3-IUj">
             <objects>
-                <viewController storyboardIdentifier="d4_p11_1_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Qk5-uw-aMM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d4_p11_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Qk5-uw-aMM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cyj-Mv-lWG">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4314,7 +4273,7 @@
         <!--View Controller-->
         <scene sceneID="t5A-gV-gHJ">
             <objects>
-                <viewController storyboardIdentifier="d5_p12_3_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DKQ-OI-WBb" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p12_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DKQ-OI-WBb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JE6-bR-PBw">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4421,7 +4380,7 @@
         <!--View Controller-->
         <scene sceneID="sd2-ND-DMd">
             <objects>
-                <viewController storyboardIdentifier="d5_p13_2_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lnx-E3-IuD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p13_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lnx-E3-IuD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8kR-DU-SBO">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4448,7 +4407,7 @@
         <!--View Controller-->
         <scene sceneID="nL5-6j-uPj">
             <objects>
-                <viewController storyboardIdentifier="d5_p13_2_c" useStoryboardIdentifierAsRestorationIdentifier="YES" id="S9y-uT-XDq" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p13_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="S9y-uT-XDq" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DnJ-ee-eCa">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4750,7 +4709,7 @@
         <!--View Controller-->
         <scene sceneID="heF-d8-p3N">
             <objects>
-                <viewController storyboardIdentifier="d5_p15_3_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kZO-rb-axj" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p15_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kZO-rb-axj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fhx-pz-wI3">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4858,7 +4817,7 @@
         <!--View Controller-->
         <scene sceneID="tas-UA-9jE">
             <objects>
-                <viewController storyboardIdentifier="d5_p16_2_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Rw3-Tx-o6R" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p16_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Rw3-Tx-o6R" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bgS-Ud-UfQ">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4885,7 +4844,7 @@
         <!--View Controller-->
         <scene sceneID="aIR-WC-9Dj">
             <objects>
-                <viewController storyboardIdentifier="d5_p16_2_c" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wvv-Qq-FuB" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p16_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wvv-Qq-FuB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MeB-eM-rmA">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4999,7 +4958,7 @@
         <!--View Controller-->
         <scene sceneID="wt5-ay-8hD">
             <objects>
-                <viewController storyboardIdentifier="d5_p20_1_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zVR-tZ-fcq" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p20_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zVR-tZ-fcq" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1c5-vV-AIU">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5033,7 +4992,7 @@
         <!--View Controller-->
         <scene sceneID="sjb-BI-u8R">
             <objects>
-                <viewController storyboardIdentifier="d5_p20_1_c" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Q14-p9-CdI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p20_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Q14-p9-CdI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jJc-rl-3G1">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5067,7 +5026,7 @@
         <!--View Controller-->
         <scene sceneID="D5N-co-XCM">
             <objects>
-                <viewController storyboardIdentifier="d5_p20_1_d" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BVu-Q7-soa" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p20_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BVu-Q7-soa" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iOY-om-KDX">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5201,7 +5160,7 @@
         <!--View Controller-->
         <scene sceneID="2LS-ON-n0n">
             <objects>
-                <viewController storyboardIdentifier="d5_p1_1_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DK3-v1-Rkn" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p1_2_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DK3-v1-Rkn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gd9-7I-sC5">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5235,7 +5194,7 @@
         <!--View Controller-->
         <scene sceneID="cf5-65-RMX">
             <objects>
-                <viewController storyboardIdentifier="d5_p1_1_c" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ct3-ll-fxK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p1_3_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ct3-ll-fxK" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="llw-Ji-OOF">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5269,7 +5228,7 @@
         <!--View Controller-->
         <scene sceneID="mwY-z4-5F0">
             <objects>
-                <viewController storyboardIdentifier="d5_p1_1_d" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XhW-9V-xzx" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p1_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XhW-9V-xzx" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2YM-yw-bpZ">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5463,7 +5422,7 @@
         <!--View Controller-->
         <scene sceneID="jR0-99-7yb">
             <objects>
-                <viewController storyboardIdentifier="d5_p2_3_b" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eee-y3-zwt" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p2_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eee-y3-zwt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V31-gc-ROR">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5497,7 +5456,7 @@
         <!--View Controller-->
         <scene sceneID="DH9-nw-O33">
             <objects>
-                <viewController storyboardIdentifier="d5_p2_3_c" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ahO-kd-fnY" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p2_5_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ahO-kd-fnY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g4G-Wf-TvN">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5531,7 +5490,7 @@
         <!--View Controller-->
         <scene sceneID="EM3-Vq-evt">
             <objects>
-                <viewController storyboardIdentifier="d5_p2_3_d" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Bft-1n-3oV" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p2_6_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Bft-1n-3oV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="78C-rI-9vI">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5565,7 +5524,7 @@
         <!--View Controller-->
         <scene sceneID="VZI-jL-3zD">
             <objects>
-                <viewController storyboardIdentifier="d5_p2_3_e" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Bip-Yb-w4Q" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d5_p2_7_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Bip-Yb-w4Q" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YxF-eN-V1g">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -5773,10 +5732,10 @@
             </objects>
             <point key="canvasLocation" x="7623" y="7951"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p24UI View-->
         <scene sceneID="KTh-tf-Hue">
             <objects>
-                <navigationController storyboardIdentifier="d1_p2_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HMS-lI-CpU" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p2_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HMS-lI-CpU" customClass="d1_p2_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PTN-9c-XZB">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5786,10 +5745,10 @@
             </objects>
             <point key="canvasLocation" x="-3172" y="-3706"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p25UI View-->
         <scene sceneID="XoC-r5-kmA">
             <objects>
-                <navigationController storyboardIdentifier="d1_p2_5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ipa-nJ-kTA" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p2_5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ipa-nJ-kTA" customClass="d1_p2_5_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L0i-5q-Yws">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5799,10 +5758,10 @@
             </objects>
             <point key="canvasLocation" x="-3172" y="-2906"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p32UI View-->
         <scene sceneID="3m0-rH-HQJ">
             <objects>
-                <navigationController storyboardIdentifier="d1_p3_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4hS-rv-wFg" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p3_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4hS-rv-wFg" customClass="d1_p3_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3jb-NW-gcn">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5812,10 +5771,10 @@
             </objects>
             <point key="canvasLocation" x="-3164" y="349"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p33UI View-->
         <scene sceneID="okU-ud-gDH">
             <objects>
-                <navigationController storyboardIdentifier="d1_p3_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Viu-YR-Pue" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p3_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Viu-YR-Pue" customClass="d1_p3_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="F6x-RC-NvJ">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5825,10 +5784,10 @@
             </objects>
             <point key="canvasLocation" x="-3164" y="1094"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p34UI View-->
         <scene sceneID="Pbz-dd-w9B">
             <objects>
-                <navigationController storyboardIdentifier="d1_p3_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hCW-mV-mlf" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p3_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hCW-mV-mlf" customClass="d1_p3_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0xY-Gf-u8D">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5838,10 +5797,10 @@
             </objects>
             <point key="canvasLocation" x="-3164" y="1832"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p42UI View-->
         <scene sceneID="DDm-Sr-Zes">
             <objects>
-                <navigationController storyboardIdentifier="d1_p4_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Fdc-ef-HF0" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p4_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Fdc-ef-HF0" customClass="d1_p4_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CH8-E0-7XA">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5851,10 +5810,10 @@
             </objects>
             <point key="canvasLocation" x="-3172" y="3336"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p43UI View-->
         <scene sceneID="2wj-jN-Tri">
             <objects>
-                <navigationController storyboardIdentifier="d1_p4_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="evm-Qb-z8W" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p4_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="evm-Qb-z8W" customClass="d1_p4_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qVF-U3-GtM">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5864,10 +5823,10 @@
             </objects>
             <point key="canvasLocation" x="-3172" y="4042"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p44UI View-->
         <scene sceneID="ifq-X5-uOS">
             <objects>
-                <navigationController storyboardIdentifier="d1_p4_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HjJ-A6-5i6" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p4_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="HjJ-A6-5i6" customClass="d1_p4_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zYF-4B-9MF">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5877,10 +5836,10 @@
             </objects>
             <point key="canvasLocation" x="-3172" y="4791"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p84UI View-->
         <scene sceneID="i72-6k-NlX">
             <objects>
-                <navigationController storyboardIdentifier="d1_p8_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rVK-1L-d55" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p8_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rVK-1L-d55" customClass="d1_p8_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mdG-Up-f47">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5890,10 +5849,10 @@
             </objects>
             <point key="canvasLocation" x="-3183" y="14804"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p112UI View-->
         <scene sceneID="bkf-Ns-BrJ">
             <objects>
-                <navigationController storyboardIdentifier="d2_p11_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aAn-dY-ple" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d2_p11_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aAn-dY-ple" customClass="d2_p11_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="coL-ZH-3GK">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5903,10 +5862,10 @@
             </objects>
             <point key="canvasLocation" x="-731" y="-2965"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p113UI View-->
         <scene sceneID="USS-JT-hpQ">
             <objects>
-                <navigationController storyboardIdentifier="d2_p11_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cFM-qs-g3y" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d2_p11_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cFM-qs-g3y" customClass="d2_p11_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cxz-04-5Md">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5916,10 +5875,10 @@
             </objects>
             <point key="canvasLocation" x="-731" y="-2236"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p133UI View-->
         <scene sceneID="9Kd-WA-Qrz">
             <objects>
-                <navigationController storyboardIdentifier="d2_p13_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xXA-0q-Sv5" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d2_p13_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xXA-0q-Sv5" customClass="d2_p13_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="R5o-Ut-DS8">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5929,10 +5888,10 @@
             </objects>
             <point key="canvasLocation" x="-729" y="3772"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p134UI View-->
         <scene sceneID="ry5-aV-Yux">
             <objects>
-                <navigationController storyboardIdentifier="d2_p13_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7uN-Zx-WI0" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d2_p13_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7uN-Zx-WI0" customClass="d2_p13_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Qw6-fU-dkS">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5942,10 +5901,10 @@
             </objects>
             <point key="canvasLocation" x="-729" y="4628"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p152UI View-->
         <scene sceneID="6P9-5Q-Xtg">
             <objects>
-                <navigationController storyboardIdentifier="d2_p15_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PT5-mv-af0" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d2_p15_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PT5-mv-af0" customClass="d2_p15_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="b9X-Dg-s2u">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5955,10 +5914,10 @@
             </objects>
             <point key="canvasLocation" x="-735" y="9172"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p172UI View-->
         <scene sceneID="I3e-uu-4ao">
             <objects>
-                <navigationController id="yry-pa-HIG" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d3_p17_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yry-pa-HIG" customClass="d3_p17_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qyu-eM-mnw">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5968,10 +5927,10 @@
             </objects>
             <point key="canvasLocation" x="1813" y="-3678"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p33UI View-->
         <scene sceneID="rU4-Aw-3KM">
             <objects>
-                <navigationController id="R20-Rx-aXD" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d3_p3_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="R20-Rx-aXD" customClass="d3_p3_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6eN-Ek-96c">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5979,12 +5938,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ezF-Ih-Tcy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798" y="12616"/>
+            <point key="canvasLocation" x="1798" y="13371"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p34UI View-->
         <scene sceneID="1Ew-nD-yb7">
             <objects>
-                <navigationController id="lvg-RD-gzh" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d3_p3_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lvg-RD-gzh" customClass="d3_p3_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hLQ-DT-lLt">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -5992,12 +5951,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1tQ-Ij-66e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798" y="13368"/>
+            <point key="canvasLocation" x="1798" y="14122"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p43UI View-->
         <scene sceneID="dz9-Cx-TpZ">
             <objects>
-                <navigationController id="Hne-to-03t" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d4_p4_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Hne-to-03t" customClass="d4_p4_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="v0p-Lk-rf9">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -6007,10 +5966,10 @@
             </objects>
             <point key="canvasLocation" x="4613" y="-5252"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p52UI View-->
         <scene sceneID="i3r-0v-m46">
             <objects>
-                <navigationController id="4sv-4t-yNY" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d4_p5_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4sv-4t-yNY" customClass="d4_p5_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4jt-d6-DFD">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -6020,10 +5979,10 @@
             </objects>
             <point key="canvasLocation" x="4613" y="-3023"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p53UI View-->
         <scene sceneID="Sx7-jG-e5r">
             <objects>
-                <navigationController id="Sy2-6b-Qvp" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d4_p5_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Sy2-6b-Qvp" customClass="d4_p5_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Tmu-9J-m0x">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -6060,10 +6019,10 @@
             </objects>
             <point key="canvasLocation" x="-2608" y="7043"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p54UI View-->
         <scene sceneID="L83-x3-v6n">
             <objects>
-                <navigationController storyboardIdentifier="d1_p5_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kVI-oO-rwu" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p5_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kVI-oO-rwu" customClass="d1_p5_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TOj-YY-r0b">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -6073,10 +6032,10 @@
             </objects>
             <point key="canvasLocation" x="-3176" y="7813"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--p52UI View-->
         <scene sceneID="XH3-mv-sb0">
             <objects>
-                <navigationController storyboardIdentifier="d1_p5_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ckj-jS-939" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="d1_p5_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ckj-jS-939" customClass="d1_p5_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Spv-Sg-nt5">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -6116,7 +6075,7 @@
         <!--View Controller-->
         <scene sceneID="O1x-ys-mGx">
             <objects>
-                <viewController storyboardIdentifier="d1_p5_4_animation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Cix-5Z-bax" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d1_p5_4_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Cix-5Z-bax" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6F2-0e-mDQ">
                         <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6129,15 +6088,407 @@
             </objects>
             <point key="canvasLocation" x="-2608" y="7783"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="gMD-Uz-6vF">
+            <objects>
+                <viewController storyboardIdentifier="d3_p1_1_a" useStoryboardIdentifierAsRestorationIdentifier="YES" id="49c-Qy-Kxi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3o5-EE-Sbh">
+                        <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p10_2" translatesAutoresizingMaskIntoConstraints="NO" id="t28-VO-61N">
+                                <rect key="frame" x="0.0" y="0.0" width="728" height="376"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="t28-VO-61N" firstAttribute="centerY" secondItem="3o5-EE-Sbh" secondAttribute="centerY" id="IC0-DN-BAh"/>
+                            <constraint firstItem="t28-VO-61N" firstAttribute="centerX" secondItem="3o5-EE-Sbh" secondAttribute="centerX" id="LX4-Gr-0zk"/>
+                            <constraint firstItem="t28-VO-61N" firstAttribute="height" secondItem="3o5-EE-Sbh" secondAttribute="height" id="pIo-bu-cu2"/>
+                            <constraint firstItem="t28-VO-61N" firstAttribute="width" secondItem="3o5-EE-Sbh" secondAttribute="width" id="plf-5W-g78"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Jm0-YT-Jo6"/>
+                    </view>
+                    <size key="freeformSize" width="728" height="376"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l7w-KT-X9l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2470" y="7993"/>
+        </scene>
+        <!--p62UI View-->
+        <scene sceneID="Qfn-n0-pq4">
+            <objects>
+                <navigationController storyboardIdentifier="d4_p6_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0Kg-OX-TPc" customClass="d4_p6_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5O2-wy-nOC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3j3-iv-cYV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4621" y="790"/>
+        </scene>
+        <!--p73UI View-->
+        <scene sceneID="0dw-74-ovC">
+            <objects>
+                <navigationController storyboardIdentifier="d4_p7_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CNT-rr-W5T" customClass="d4_p7_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="scT-qf-lBX">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0ik-8G-mZK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4613" y="3799"/>
+        </scene>
+        <!--p84UI View-->
+        <scene sceneID="dfB-Cb-xhH">
+            <objects>
+                <navigationController storyboardIdentifier="d4_p8_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MkS-K2-SD8" customClass="d4_p8_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uxs-st-yVz">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lr9-jy-xfz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4625" y="5454"/>
+        </scene>
+        <!--p85UI View-->
+        <scene sceneID="tVo-ZW-8zu">
+            <objects>
+                <navigationController storyboardIdentifier="d4_p8_5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MM6-vy-Lk7" customClass="d4_p8_5_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ecd-pv-g1d">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ouW-YP-qDf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4625" y="6303"/>
+        </scene>
+        <!--p86UI View-->
+        <scene sceneID="EEC-qm-zdY">
+            <objects>
+                <navigationController storyboardIdentifier="d4_p8_6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ex9-ca-5Ns" customClass="d4_p8_6_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HGn-Yp-Wv9">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EOs-Wn-hX0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4625" y="7099"/>
+        </scene>
+        <!--p91UI View-->
+        <scene sceneID="fSv-f6-l3M">
+            <objects>
+                <navigationController storyboardIdentifier="d4_p9_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L7O-xT-DB8" customClass="d4_p9_1_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yFu-an-q4a">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4QY-WT-gzC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4613" y="9500"/>
+        </scene>
+        <!--p102UI View-->
+        <scene sceneID="BKb-Sb-nWz">
+            <objects>
+                <navigationController storyboardIdentifier="d4_p10_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zpi-q0-aAA" customClass="d4_p10_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UWZ-jt-SCO">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T0G-Ev-0Ym" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4625" y="12645"/>
+        </scene>
+        <!--p103UI View-->
+        <scene sceneID="2oK-HD-7hQ">
+            <objects>
+                <navigationController storyboardIdentifier="d4_p10_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="flP-WT-Oqx" customClass="d4_p10_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ah2-kU-eCM">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vwz-up-64f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4625" y="13425"/>
+        </scene>
+        <!--p104UI View-->
+        <scene sceneID="S2C-re-YBL">
+            <objects>
+                <navigationController storyboardIdentifier="d4_p10_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Jdj-l9-XJi" customClass="d4_p10_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wm0-bF-xmj">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7gc-KV-3su" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4625" y="14180"/>
+        </scene>
+        <!--p105UI View-->
+        <scene sceneID="AP6-rT-3l1">
+            <objects>
+                <navigationController storyboardIdentifier="d4_p10_5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jQp-GO-BpE" customClass="d4_p10_5_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ODP-SK-Kdt">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eIc-sL-gQU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4625" y="14929"/>
+        </scene>
+        <!--p106UI View-->
+        <scene sceneID="cjW-zj-nSb">
+            <objects>
+                <navigationController storyboardIdentifier="d4_p10_6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8ey-D8-7Zv" customClass="d4_p10_6_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ISn-Cg-4yC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JTU-zU-hBC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4625" y="15764"/>
+        </scene>
+        <!--p112UI View-->
+        <scene sceneID="0jx-Zs-AuA">
+            <objects>
+                <navigationController storyboardIdentifier="d4_p11_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ngk-vd-Mpo" customClass="d4_p11_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4eO-Cf-0ab">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LdM-4c-dCr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4625" y="18193"/>
+        </scene>
+        <!--p124UI View-->
+        <scene sceneID="q6X-ua-3Rr">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p12_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PR1-YS-zbs" customClass="d5_p12_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pZP-uD-i1R">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EWg-nq-YcI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7621" y="-5086"/>
+        </scene>
+        <!--p133UI View-->
+        <scene sceneID="MB9-Pp-N3l">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p13_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ziP-Ue-y1L" customClass="d5_p13_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XMy-5c-npS">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gqj-2h-cIa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7623" y="-2817"/>
+        </scene>
+        <!--p134UI View-->
+        <scene sceneID="jqC-lR-Wdf">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p13_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3dG-TL-puy" customClass="d5_p13_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="s77-hl-qv7">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D5v-9S-ccZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7623" y="-2046"/>
+        </scene>
+        <!--p154UI View-->
+        <scene sceneID="rkX-qo-t1J">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p15_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hh7-U7-J10" customClass="d5_p15_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2C5-Gi-ieR">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nQk-yg-NYE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7623" y="3364"/>
+        </scene>
+        <!--p163UI View-->
+        <scene sceneID="eCH-bw-0GB">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p16_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TXU-Mu-7Cb" customClass="d5_p16_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="62n-U9-WXh">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WUH-rn-8Kn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7623" y="5690"/>
+        </scene>
+        <!--p164UI View-->
+        <scene sceneID="STI-0b-eC5">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p16_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VV1-fM-j86" customClass="d5_p16_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BbH-HO-lEm">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s8D-fy-Ejh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7623" y="6514"/>
+        </scene>
+        <!--p202UI View-->
+        <scene sceneID="EuH-zO-wNd">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p20_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Odg-fC-iIg" customClass="d5_p20_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="m5W-0Y-zdx">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zg0-ay-SoP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7623" y="9474"/>
+        </scene>
+        <!--p203UI View-->
+        <scene sceneID="qLQ-rU-Tcz">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p20_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lor-CH-Qx4" customClass="d5_p20_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oL2-wl-KyM">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SaU-4f-FDb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7615" y="10270"/>
+        </scene>
+        <!--p204UI View-->
+        <scene sceneID="xPZ-Hd-Csf">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p20_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cmY-pn-sG0" customClass="d5_p20_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="z58-Lp-pr9">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cGO-rI-wr0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7619" y="11077"/>
+        </scene>
+        <!--p12UI View-->
+        <scene sceneID="ZEO-Pt-uiD">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p1_2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="d1Z-nZ-wa3" customClass="d5_p1_2_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eQ8-2Q-nOM">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oa4-uQ-F5w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7615" y="13367"/>
+        </scene>
+        <!--p13UI View-->
+        <scene sceneID="fmE-MT-rlQ">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p1_3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="cOJ-54-rAM" customClass="d5_p1_3_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="M3q-J3-Qgt">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VML-AZ-9cL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7619" y="14064"/>
+        </scene>
+        <!--p14UI View-->
+        <scene sceneID="mCd-nj-QjX">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p1_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="To6-We-zu6" customClass="d5_p1_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="38o-cN-zrr">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mbb-QA-6fb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7623" y="14803"/>
+        </scene>
+        <!--p24UI View-->
+        <scene sceneID="phx-Ul-lLf">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p2_4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="N2g-Mb-Wbp" customClass="d5_p2_4_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TGs-ec-dtp">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8HH-t9-S6g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7615" y="17151"/>
+        </scene>
+        <!--p25UI View-->
+        <scene sceneID="q9f-UJ-3uU">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p2_5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AEG-9X-voV" customClass="d5_p2_5_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NSO-jd-SUw">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DdW-Q2-98v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7623" y="17958"/>
+        </scene>
+        <!--p26UI View-->
+        <scene sceneID="9f5-CP-xuu">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p2_6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="C70-bp-yVf" customClass="d5_p2_6_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jGm-Vt-0xK">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TjF-aM-1Vb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7623" y="18764"/>
+        </scene>
+        <!--p27UI View-->
+        <scene sceneID="e8B-xC-fbA">
+            <objects>
+                <navigationController storyboardIdentifier="d5_p2_7" useStoryboardIdentifierAsRestorationIdentifier="YES" id="t6a-yj-TiR" customClass="d5_p2_7_UIView" customModule="Alone_Comic" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fdC-cc-EIA">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eIL-Ms-hdn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7623" y="19509"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="19_3 but brigher" width="2688" height="1242"/>
         <image name="Combined p6_2" width="2688" height="1242"/>
         <image name="Combined p6_3" width="2688" height="1242"/>
         <image name="Couch" width="2688" height="1500"/>
         <image name="Couch to Left" width="2688" height="1242"/>
         <image name="Couch to Left notification" width="2688" height="1242"/>
-        <image name="Curved room affect" width="2688" height="1242"/>
         <image name="D2p15_3" width="2688" height="1242"/>
+        <image name="D3P16_3" width="2688" height="1242"/>
         <image name="D5p14_3" width="2688" height="1242"/>
         <image name="D5p16_4 combined" width="2688" height="1242"/>
         <image name="Day1" width="2688" height="1242"/>
@@ -6148,10 +6499,7 @@
         <image name="Day5" width="2688" height="1242"/>
         <image name="Detailed Couch" width="2688" height="1242"/>
         <image name="Detailed Couch Closeup" width="2688" height="1242"/>
-        <image name="Jump back from door" width="2688" height="1242"/>
-        <image name="Kitchen Counter Zoomed Out Extended" width="2688" height="1500"/>
         <image name="Kitchen extended" width="2688" height="1500"/>
-        <image name="Kitchen extended-1" width="2688" height="1242"/>
         <image name="Kitchen p15_1" width="2688" height="1242"/>
         <image name="Kitchen with Boxes Extended" width="2688" height="1500"/>
         <image name="Long Kitchen" width="2688" height="1242"/>
@@ -6204,13 +6552,11 @@
         <image name="Picture on Table" width="2688" height="1242"/>
         <image name="Television Cracked Screen" width="2688" height="1242"/>
         <image name="Television Day 5" width="2688" height="1242"/>
-        <image name="Television Red Circle Day 3" width="2688" height="1242"/>
         <image name="Television Red Circle Day 4" width="2688" height="1242"/>
         <image name="Television Turning Off" width="2688" height="1242"/>
         <image name="Television Turning Off-1" width="2688" height="1242"/>
         <image name="Television throw remote" width="2688" height="1242"/>
         <image name="Weird Angle door" width="2688" height="1242"/>
-        <image name="Weird Angle door P18_3" width="2688" height="1242"/>
         <image name="combined p3_3" width="2688" height="1242"/>
         <image name="combined p3_3-1" width="2688" height="1242"/>
         <image name="cutoffversion" width="5000" height="1500"/>
@@ -6235,7 +6581,7 @@
         <image name="p13_3" width="2688" height="1242"/>
         <image name="p14_2figure" width="637" height="1189"/>
         <image name="p14_3-1" width="2688" height="1242"/>
-        <image name="p14_4 Combined" width="2688" height="1242"/>
+        <image name="p14_4" width="2688" height="1242"/>
         <image name="p15_1" width="2688" height="1242"/>
         <image name="p15_2" width="2688" height="1242"/>
         <image name="p15_4" width="2688" height="1242"/>
@@ -6243,15 +6589,18 @@
         <image name="p16_3 combined-1" width="2688" height="1242"/>
         <image name="p16_4 Combined" width="2688" height="1242"/>
         <image name="p16_4 Combined-2" width="2688" height="1242"/>
+        <image name="p17_1 Combined with Text" width="2688" height="1242"/>
         <image name="p17_1 combined" width="2688" height="1242"/>
-        <image name="p17_1n2" width="2688" height="1242"/>
-        <image name="p18_1 Combined" width="2688" height="1242"/>
-        <image name="p18_3figure" width="1138" height="1206"/>
-        <image name="p18_4figure" width="559" height="1114"/>
-        <image name="p19_3figure-1" width="809" height="981"/>
-        <image name="p19_4figure" width="567" height="1062"/>
+        <image name="p17_2" width="2688" height="1242"/>
+        <image name="p17_3 combined" width="2688" height="1242"/>
+        <image name="p17_4 Combined withText" width="2688" height="1242"/>
+        <image name="p18_1 Combined with Text" width="2688" height="1242"/>
+        <image name="p18_2 Combined with Text" width="2688" height="1242"/>
+        <image name="p18_3" width="2688" height="1242"/>
+        <image name="p18_4 Combined with Text" width="2688" height="1242"/>
+        <image name="p19_4" width="2688" height="1242"/>
         <image name="p20_1" width="1164" height="800"/>
-        <image name="p20_4figure" width="580" height="1052"/>
+        <image name="p20_4 Combined with Text" width="2688" height="1242"/>
         <image name="p20_5" width="2688" height="1242"/>
         <image name="p2_1figureLEFT" width="410" height="979"/>
         <image name="p2_2 Combined" width="2688" height="1242"/>

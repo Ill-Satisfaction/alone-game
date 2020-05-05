@@ -1,83 +1,24 @@
 //
-//  d1_p2_1_UIView.swift
+//  d1_p1_1UIView.swift
 //  Alone-Comic
 //
-//  Created by Adam Azevedo on 4/25/20.
+//  Created by XCodeClub on 2020-04-22.
 //  Copyright © 2020 250_DreamTeam. All rights reserved.
 //
 
 import UIKit
 
-class d1_p2_1_UIView: UINavigationController {
-    
-    // set all subpanels IN ORDER
-    private(set) lazy var orderedViewControllers: [UIViewController] = {
-        return [
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p2_1_a"),
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p2_1_b"),
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p2_1_c"),
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p2_1_d")
-        ]
-    }()
-    
-    private var currPanel : Int = 0
-    
-    
+class d1_p2_1_UIView: UIViewController {
+
+    @IBOutlet weak var backgroundImageView: UIImageView!
+    let screenSize: CGRect = UIScreen.main.bounds
     
     override func viewDidLoad() {
-        //  initialize screen
         super.viewDidLoad()
-        self.setNavigationBarHidden(true, animated: false)
-        
-        
-        //  load first panel
-        self.goForward()
-        
-        
-        
-        
-        
-        
-        
-        //  --------------------------------
-        //  THIS SECTION IS CHANGED FROM PANEL TO PANEL,
-        //  DEPENDING ON WHAT WE NEED
-        //  --------------------------------
-        //this section needs some work
-               for _ in 1...orderedViewControllers.count-1 {
-                   DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                       self.goForward()
-                   }
-               }
-        
-        //  --------------------------------
-        
-        
-        
-        
-        
+        // Do any additional setup after loading the view.
+
         
         
         
     }
-    
-    @objc func goForward() {
-        if currPanel==orderedViewControllers.count {
-            print ("hit the wall")
-            return
-        }
-        
-        self.pushViewController(orderedViewControllers[currPanel], animated: true)
-        currPanel+=1
-    }
-    
-    func goBack() {
-        if currPanel==0 {
-            return
-        }
-        
-        self.popViewController( animated: true )
-        currPanel-=1
-    }
-    
 }

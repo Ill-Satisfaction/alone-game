@@ -1,5 +1,5 @@
 //
-//  d1_p3_1.swift
+//  d1_p5_4_UIView.swift
 //  Alone-Comic
 //
 //  Created by Adam Azevedo on 4/25/20.
@@ -14,9 +14,6 @@ class d1_p3_1_UIView: UINavigationController {
     private(set) lazy var orderedViewControllers: [UIViewController] = {
         return [
             UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p3_1_a"),
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p3_1_b"),
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p3_1_c"),
-            UIStoryboard(name: "Main", bundle: nil) .instantiateViewController(withIdentifier: "d1_p3_1_d"),
             
             
         ]
